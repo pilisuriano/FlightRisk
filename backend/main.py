@@ -12,7 +12,7 @@ def obtener_vuelos():
     try:
         # Aquí leemos el CSV local (Paso inicial)
         # Más adelante, reemplazaremos esto con la conexión a MongoDB Atlas
-        df = pd.read_csv('flights_dataset.csv')
+        df = pd.read_csv('backend/flights_dataset.csv')
         
         # Convertimos los datos a un formato amigable para React
         return df.to_dict(orient="records")
