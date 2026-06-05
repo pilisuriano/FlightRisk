@@ -1,0 +1,10 @@
+# Entorno Python
+__pycache__/
+.venv/
+
+# Datos locales
+*.csv
+
+# Entorno React/Node
+frontend/node_modules/
+frontend/dist/
