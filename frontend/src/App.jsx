@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { MapContainer, TileLayer, Marker, Popup, Polyline } from 'react-leaflet'
+import Select from 'react-select'
 import 'leaflet/dist/leaflet.css'
 import L from 'leaflet'
 
@@ -13,21 +14,26 @@ L.Icon.Default.mergeOptions({
 
 // Nuestro dataset de aeropuertos base
 const AEROPUERTOS = {
-  'EZE': { id: 'EZE', lat: -34.8222, lon: -58.5358, name: 'Buenos Aires (EZE)' },
-  'MIA': { id: 'MIA', lat: 25.7959, lon: -80.2870, name: 'Miami (MIA)' },
-  'JFK': { id: 'JFK', lat: 40.6413, lon: -73.7781, name: 'New York (JFK)' },
-  'MAD': { id: 'MAD', lat: 40.4839, lon: -3.5679, name: 'Madrid (MAD)' },
-  'GRU': { id: 'GRU', lat: -23.4356, lon: -46.4731, name: 'São Paulo (GRU)' }
+  'EZE': { id: 'EZE', lat: -34.8222, lon: -58.5358, name: 'Buenos Aires, Argentina (EZE)' },
+  'MIA': { id: 'MIA', lat: 25.7959, lon: -80.2870, name: 'Miami, Estados Unidos (MIA)' },
+  'JFK': { id: 'JFK', lat: 40.6413, lon: -73.7781, name: 'New York, Estados Unidos (JFK)' },
+  'MAD': { id: 'MAD', lat: 40.4839, lon: -3.5679, name: 'Madrid, España (MAD)' },
+  'GRU': { id: 'GRU', lat: -23.4356, lon: -46.4731, name: 'São Paulo, Brasil (GRU)' }
 };
+
+// Formateamos los datos para que el buscador inteligente los entienda
+const opcionesAeropuertos = Object.values(AEROPUERTOS).map(a => ({
+  value: a.id,
+  label: a.name
+}));
 
 function App() {
   const [vuelosDB, setVuelosDB] = useState([]);
-  const [origen, setOrigen] = useState('');
-  const [destino, setDestino] = useState('');
+  const [origen, setOrigen] = useState(null);
+  const [destino, setDestino] = useState(null);
   const [rutaActiva, setRutaActiva] = useState(null);
 
   useEffect(() => {
-    // Cargamos los datos del backend en segundo plano para usar el modelo predictivo
     fetch('/api/vuelos')
       .then(res => res.json())
       .then(data => setVuelosDB(data))
@@ -35,20 +41,22 @@ function App() {
   }, []);
 
   const analizarRuta = () => {
-    if (!origen || !destino) return;
-    if (origen === destino) {
+    if (!origen || !destino) {
+      alert("Por favor seleccione origen y destino");
+      return;
+    }
+    if (origen.value === destino.value) {
       alert("El origen y destino deben ser diferentes");
       return;
     }
 
-    // Tomamos una predicción de nuestro dataset para simular el análisis en tiempo real
     const dataModelo = vuelosDB.length > 0 
       ? vuelosDB[Math.floor(Math.random() * vuelosDB.length)] 
-      : { delay: 45, weather: 0.8, congestion: 0.6, stress: 'High' }; // Fallback
+      : { delay: 45, weather: 0.8, congestion: 0.6, stress: 'High' };
 
     setRutaActiva({
-      origenInfo: AEROPUERTOS[origen],
-      destinoInfo: AEROPUERTOS[destino],
+      origenInfo: AEROPUERTOS[origen.value],
+      destinoInfo: AEROPUERTOS[destino.value],
       stats: dataModelo
     });
   };
@@ -61,29 +69,33 @@ function App() {
         <h2 style={{ margin: '0 0 20px 0', color: '#1a202c' }}>✈️ FlightRisk</h2>
         
         <div style={{ display: 'flex', flexDirection: 'column', gap: '15px', marginBottom: '30px' }}>
-          <div>
+          <div style={{ zIndex: 100 }}>
             <label style={{ display: 'block', fontSize: '14px', marginBottom: '5px', color: '#4a5568' }}>Desde:</label>
-            <select value={origen} onChange={(e) => setOrigen(e.target.value)} style={{ width: '100%', padding: '10px', borderRadius: '6px', border: '1px solid #cbd5e0' }}>
-              <option value="">Seleccione origen...</option>
-              {Object.values(AEROPUERTOS).map(a => (
-                <option key={`orig-${a.id}`} value={a.id}>{a.name}</option>
-              ))}
-            </select>
+            <Select 
+              options={opcionesAeropuertos}
+              value={origen}
+              onChange={setOrigen}
+              placeholder="Escriba ciudad o código..."
+              isClearable
+              isSearchable
+            />
           </div>
 
-          <div>
+          <div style={{ zIndex: 90 }}>
             <label style={{ display: 'block', fontSize: '14px', marginBottom: '5px', color: '#4a5568' }}>Hacia:</label>
-            <select value={destino} onChange={(e) => setDestino(e.target.value)} style={{ width: '100%', padding: '10px', borderRadius: '6px', border: '1px solid #cbd5e0' }}>
-              <option value="">Seleccione destino...</option>
-              {Object.values(AEROPUERTOS).map(a => (
-                <option key={`dest-${a.id}`} value={a.id}>{a.name}</option>
-              ))}
-            </select>
+            <Select 
+              options={opcionesAeropuertos}
+              value={destino}
+              onChange={setDestino}
+              placeholder="Escriba ciudad o código..."
+              isClearable
+              isSearchable
+            />
           </div>
 
           <button 
             onClick={analizarRuta}
-            style={{ padding: '12px', backgroundColor: '#3182ce', color: 'white', border: 'none', borderRadius: '6px', fontWeight: 'bold', cursor: 'pointer' }}
+            style={{ padding: '12px', marginTop: '10px', backgroundColor: '#3182ce', color: 'white', border: 'none', borderRadius: '6px', fontWeight: 'bold', cursor: 'pointer' }}
           >
             Analizar Riesgo
           </button>
@@ -117,21 +129,19 @@ function App() {
       </div>
 
       {/* ÁREA DEL MAPA */}
-      <div style={{ flex: 1, position: 'relative' }}>
+      <div style={{ flex: 1, position: 'relative', zIndex: 1 }}>
         <MapContainer center={[10, -40]} zoom={3} style={{ height: '100%', width: '100%' }}>
           <TileLayer
             attribution='&copy; OpenStreetMap'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
           
-          {/* Pintamos todos los aeropuertos en el mapa */}
           {Object.values(AEROPUERTOS).map(aeropuerto => (
             <Marker key={aeropuerto.id} position={[aeropuerto.lat, aeropuerto.lon]}>
               <Popup>{aeropuerto.name}</Popup>
             </Marker>
           ))}
 
-          {/* Si hay una ruta activa, dibujamos la línea roja conectándolos */}
           {rutaActiva && (
             <Polyline 
               positions={[
@@ -140,7 +150,7 @@ function App() {
               ]} 
               color="red" 
               weight={4} 
-              dashArray="10, 10" // Hace que la línea sea punteada
+              dashArray="10, 10"
             />
           )}
         </MapContainer>
