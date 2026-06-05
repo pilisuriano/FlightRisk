@@ -12,8 +12,10 @@ L.Icon.Default.mergeOptions({
 });
 
 function App() {
-  const [vuelos, setVuelos] = useState([])
-  const [error, setError] = useState(null)
+  const [vuelosDB, setVuelosDB] = useState([]);
+  const [origen, setOrigen] = useState('');
+  const [destino, setDestino] = useState('');
+  const [rutaActiva, setRutaActiva] = useState(null);
 
   useEffect(() => {
     fetch('/api/vuelos')
@@ -66,8 +68,39 @@ function App() {
               Delay: {vuelo.delay}m | Clima: {vuelo.weather.toFixed(2)} | Congestión: {vuelo.congestion.toFixed(2)}
             </p>
           </div>
-        ))}
+        )}
       </div>
+
+      {/* ÁREA DEL MAPA */}
+      <div style={{ flex: 1, position: 'relative' }}>
+        <MapContainer center={[10, -40]} zoom={3} style={{ height: '100%', width: '100%' }}>
+          <TileLayer
+            attribution='&copy; OpenStreetMap'
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          />
+          
+          {/* Pintamos todos los aeropuertos en el mapa */}
+          {Object.values(AEROPUERTOS).map(aeropuerto => (
+            <Marker key={aeropuerto.id} position={[aeropuerto.lat, aeropuerto.lon]}>
+              <Popup>{aeropuerto.name}</Popup>
+            </Marker>
+          ))}
+
+          {/* Si hay una ruta activa, dibujamos la línea roja conectándolos */}
+          {rutaActiva && (
+            <Polyline 
+              positions={[
+                [rutaActiva.origenInfo.lat, rutaActiva.origenInfo.lon],
+                [rutaActiva.destinoInfo.lat, rutaActiva.destinoInfo.lon]
+              ]} 
+              color="red" 
+              weight={4} 
+              dashArray="10, 10" // Hace que la línea sea punteada
+            />
+          )}
+        </MapContainer>
+      </div>
+      
     </div>
   )
 }
