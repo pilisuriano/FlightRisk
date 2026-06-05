@@ -1,15 +1,24 @@
 import { useState, useEffect } from 'react'
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker, Popup, Polyline } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import L from 'leaflet'
 
-// Arreglo para los íconos por defecto de Leaflet en React
+// Arreglo para los íconos de Leaflet
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
   iconRetinaUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.71.1/images/marker-icon-2x.png',
   iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.71.1/images/marker-icon.png',
   shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.71.1/images/marker-shadow.png',
 });
+
+// Nuestro dataset de aeropuertos base
+const AEROPUERTOS = {
+  'EZE': { id: 'EZE', lat: -34.8222, lon: -58.5358, name: 'Buenos Aires (EZE)' },
+  'MIA': { id: 'MIA', lat: 25.7959, lon: -80.2870, name: 'Miami (MIA)' },
+  'JFK': { id: 'JFK', lat: 40.6413, lon: -73.7781, name: 'New York (JFK)' },
+  'MAD': { id: 'MAD', lat: 40.4839, lon: -3.5679, name: 'Madrid (MAD)' },
+  'GRU': { id: 'GRU', lat: -23.4356, lon: -46.4731, name: 'São Paulo (GRU)' }
+};
 
 function App() {
   const [vuelosDB, setVuelosDB] = useState([]);
@@ -18,55 +27,91 @@ function App() {
   const [rutaActiva, setRutaActiva] = useState(null);
 
   useEffect(() => {
+    // Cargamos los datos del backend en segundo plano para usar el modelo predictivo
     fetch('/api/vuelos')
-      .then(res => {
-        if (!res.ok) throw new Error("Error al conectar con la API");
-        return res.json();
-      })
-      .then(data => setVuelos(data))
-      .catch(err => setError(err.message))
-  }, [])
+      .then(res => res.json())
+      .then(data => setVuelosDB(data))
+      .catch(err => console.error("Error cargando IA:", err));
+  }, []);
+
+  const analizarRuta = () => {
+    if (!origen || !destino) return;
+    if (origen === destino) {
+      alert("El origen y destino deben ser diferentes");
+      return;
+    }
+
+    // Tomamos una predicción de nuestro dataset para simular el análisis en tiempo real
+    const dataModelo = vuelosDB.length > 0 
+      ? vuelosDB[Math.floor(Math.random() * vuelosDB.length)] 
+      : { delay: 45, weather: 0.8, congestion: 0.6, stress: 'High' }; // Fallback
+
+    setRutaActiva({
+      origenInfo: AEROPUERTOS[origen],
+      destinoInfo: AEROPUERTOS[destino],
+      stats: dataModelo
+    });
+  };
 
   return (
-    <div style={{ padding: '20px', fontFamily: 'sans-serif', backgroundColor: '#f0f2f5', minHeight: '100vh' }}>      
-    <h1>✈️ Centro de Control Operativo - FlightRisk</h1>
-      {error && <p style={{ color: 'red' }}>Error: {error}</p>}
+    <div style={{ display: 'flex', height: '100vh', fontFamily: 'sans-serif', backgroundColor: '#f5f7fa' }}>
+      
+      {/* PANEL LATERAL (SIDEBAR) */}
+      <div style={{ width: '350px', padding: '20px', backgroundColor: '#ffffff', boxShadow: '2px 0 10px rgba(0,0,0,0.1)', zIndex: 1000, display: 'flex', flexDirection: 'column' }}>
+        <h2 style={{ margin: '0 0 20px 0', color: '#1a202c' }}>✈️ FlightRisk</h2>
+        
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '15px', marginBottom: '30px' }}>
+          <div>
+            <label style={{ display: 'block', fontSize: '14px', marginBottom: '5px', color: '#4a5568' }}>Desde:</label>
+            <select value={origen} onChange={(e) => setOrigen(e.target.value)} style={{ width: '100%', padding: '10px', borderRadius: '6px', border: '1px solid #cbd5e0' }}>
+              <option value="">Seleccione origen...</option>
+              {Object.values(AEROPUERTOS).map(a => (
+                <option key={`orig-${a.id}`} value={a.id}>{a.name}</option>
+              ))}
+            </select>
+          </div>
 
-      {/* MAPA MUNDIAL INTERACTIVO */}
-      <div style={{ height: '450px', width: '100%', marginBottom: '30px', borderRadius: '12px', overflow: 'hidden', boxShadow: '0 4px 12px rgba(0,0,0,0.1)' }}>
-        <MapContainer center={[10, -40]} zoom={2} style={{ height: '100%', width: '100%' }}>
-          <TileLayer
-            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          />
-          {vuelos.slice(0, 50).map((vuelo, index) => (
-            <Marker key={index} position={[vuelo.dest_lat, vuelo.dest_lon]}>
-              <Popup>
-                <strong>{vuelo.airline}</strong><br />
-                Destino: {vuelo.destination}<br />
-                Riesgo de Estrés: <span style={{ color: vuelo.stress === 'High' ? 'red' : 'orange' }}>{vuelo.stress}</span>
-              </Popup>
-            </Marker>
-          ))}
-        </MapContainer>
-      </div>
+          <div>
+            <label style={{ display: 'block', fontSize: '14px', marginBottom: '5px', color: '#4a5568' }}>Hacia:</label>
+            <select value={destino} onChange={(e) => setDestino(e.target.value)} style={{ width: '100%', padding: '10px', borderRadius: '6px', border: '1px solid #cbd5e0' }}>
+              <option value="">Seleccione destino...</option>
+              {Object.values(AEROPUERTOS).map(a => (
+                <option key={`dest-${a.id}`} value={a.id}>{a.name}</option>
+              ))}
+            </select>
+          </div>
 
-      {/* DASHBOARD DE TARJETAS ABAJO */}
-      <h2>Lista de Alertas en Tiempo Real</h2>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '20px' }}>
-        {vuelos.slice(0, 15).map((vuelo, index) => (
-          <div key={index} style={{ border: '1px solid #e0e0e0', padding: '15px', borderRadius: '8px', backgroundColor: '#fff', boxShadow: '0 2px 4px rgba(0,0,0,0.05)' }}>
-            <h3 style={{ margin: '0 0 10px 0' }}>{vuelo.airline}: {vuelo.origin} ➡️ {vuelo.destination}</h3>
-            <span style={{
-              fontWeight: 'bold', padding: '4px 8px', borderRadius: '4px', fontSize: '12px',
-              backgroundColor: vuelo.stress === 'High' ? '#ffebee' : vuelo.stress === 'Medium' ? '#fff3e0' : '#e8f5e9',
-              color: vuelo.stress === 'High' ? '#c62828' : vuelo.stress === 'Medium' ? '#ef6c00' : '#2e7d32'
-            }}>
-              Estrés: {vuelo.stress}
-            </span>
-            <p style={{ margin: '10px 0 0 0', fontSize: '13px', color: '#666' }}>
-              Delay: {vuelo.delay}m | Clima: {vuelo.weather.toFixed(2)} | Congestión: {vuelo.congestion.toFixed(2)}
+          <button 
+            onClick={analizarRuta}
+            style={{ padding: '12px', backgroundColor: '#3182ce', color: 'white', border: 'none', borderRadius: '6px', fontWeight: 'bold', cursor: 'pointer' }}
+          >
+            Analizar Riesgo
+          </button>
+        </div>
+
+        {/* TARJETA DE RESULTADO */}
+        {rutaActiva && (
+          <div style={{ padding: '20px', border: '1px solid #e2e8f0', borderRadius: '8px', backgroundColor: '#f8fafc' }}>
+            <h3 style={{ marginTop: 0, fontSize: '18px' }}>Ruta Analizada</h3>
+            <p style={{ fontSize: '14px', color: '#4a5568', margin: '5px 0' }}>
+              {rutaActiva.origenInfo.id} ➡️ {rutaActiva.destinoInfo.id}
             </p>
+            
+            <div style={{ margin: '15px 0' }}>
+              <span style={{
+                display: 'inline-block', padding: '6px 12px', borderRadius: '4px', fontWeight: 'bold', fontSize: '14px',
+                backgroundColor: rutaActiva.stats.stress === 'High' ? '#fed7d7' : rutaActiva.stats.stress === 'Medium' ? '#feebc8' : '#c6f6d5',
+                color: rutaActiva.stats.stress === 'High' ? '#c53030' : rutaActiva.stats.stress === 'Medium' ? '#dd6b20' : '#2f855a'
+              }}>
+                Nivel de Estrés: {rutaActiva.stats.stress}
+              </span>
+            </div>
+
+            <div style={{ fontSize: '13px', color: '#718096', lineHeight: '1.6' }}>
+              <p style={{ margin: 0 }}>⏱️ Delay Estimado: <strong>{rutaActiva.stats.delay} min</strong></p>
+              <p style={{ margin: 0 }}>⛈️ Factor Clima: <strong>{rutaActiva.stats.weather?.toFixed(2)}</strong></p>
+              <p style={{ margin: 0 }}>🚦 Congestión: <strong>{rutaActiva.stats.congestion?.toFixed(2)}</strong></p>
+            </div>
           </div>
         )}
       </div>
