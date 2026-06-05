@@ -1,0 +1,5 @@
+airline,origin,destination,delay,weather,congestion,sentiment,stress
+LATAM,EZE,MIA,15,0.2,0.5,0.8,
+American Airlines,JFK,LAX,45,0.8,0.9,0.3,
+Iberia,MAD,BCN,5,0.1,0.2,0.9,
+Aerolineas Argentinas,AEP,COR,120,0.9,0.8,0.1,
