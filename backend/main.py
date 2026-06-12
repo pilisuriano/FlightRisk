@@ -36,3 +36,20 @@ def obtener_vuelos():
         return {"error": "El archivo de datos o el modelo no se encuentran."}
     except Exception as e:
         return {"error": str(e)}
+
+@app.get("/api/recomendaciones")
+def obtener_recomendaciones(origen: str, destino: str):
+    try:
+        df = pd.read_csv("backend/flights_dataset.csv")
+        
+        # Filtramos usando los nombres de columnas oficiales de la documentación
+        alternativas = df[
+            (df['origin_airport'] == origen) & 
+            (df['destination_airport'] == destino) & 
+            (df['Stress_Level'] == 'Low')
+        ]
+        
+        return alternativas.to_dict(orient="records")
+        
+    except Exception as e:
+        return {"error": f"Hubo un problema al buscar recomendaciones: {str(e)}"
