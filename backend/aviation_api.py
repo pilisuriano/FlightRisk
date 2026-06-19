@@ -5,7 +5,7 @@ from datetime import datetime
 # TODO: Pega tu API Key real de AviationStack aquí
 AVIATION_API_KEY = "8f1ba0ed59efd2bde42c82d314d0b1ca" 
 
-def obtener_vuelos_reales(limite=100):
+def obtener_vuelos_reales(limite=50):
     print("🛫 Conectando a AviationStack para obtener vuelos reales...")
     url = f"https://api.aviationstack.com/v1/flights?access_key={AVIATION_API_KEY}&limit={limite}"
     
