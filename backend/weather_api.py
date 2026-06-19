@@ -3,10 +3,13 @@ import requests
 def obtener_riesgo_climatico_pronostico(lat: float, lon: float, fecha_hora_iso: str) -> float:
     """
     Se conecta a Open-Meteo para obtener el pronóstico.
-    Busca la hora exacta del vuelo y calcula un weather_risk de 0.0 a 1.0.
-    El formato de fecha_hora_iso debe ser 'YYYY-MM-DDTHH:00'
     """
-    # Cambiamos 'current' por 'hourly' para obtener el pronóstico de los próximos 7 días
+    # --- AQUÍ VA EL CAMBIO ---
+    # Cortamos el string en el carácter 13 para quedarnos solo con 'YYYY-MM-DDTHH'
+    # y le agregamos ':00' para normalizar a la hora en punto.
+    fecha_normalizada = fecha_hora_iso[:13] + ":00"
+    # --------------------------
+    
     url = f"https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&hourly=precipitation,wind_speed_10m"
     
     try:
@@ -14,16 +17,14 @@ def obtener_riesgo_climatico_pronostico(lat: float, lon: float, fecha_hora_iso: 
         respuesta.raise_for_status()
         datos = respuesta.json()
         
-        # Extraemos la lista de todos los horarios pronosticados
         tiempos = datos.get("hourly", {}).get("time", [])
         
-        # Verificamos si la fecha del vuelo está dentro de los próximos 7 días
-        if fecha_hora_iso not in tiempos:
-            print(f"⚠️ Aviso: La fecha {fecha_hora_iso} no está en el rango del pronóstico.")
-            return 0.5 # Devolvemos un riesgo neutro si el vuelo es muy a futuro
+        # Ahora comparamos contra la fecha normalizada
+        if fecha_normalizada not in tiempos:
+            print(f"⚠️ Aviso: La fecha {fecha_normalizada} no está en el rango.")
+            return 0.5 
             
-        # Buscamos en qué posición (índice) está la hora de nuestro vuelo
-        indice = tiempos.index(fecha_hora_iso)
+        indice = tiempos.index(fecha_normalizada)
         
         # Usamos ese índice para sacar la lluvia y viento exactos de esa hora
         precipitacion = datos["hourly"]["precipitation"][indice]

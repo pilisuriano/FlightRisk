@@ -1,50 +1,41 @@
-airline,origin_airport,destination_airport,avg_delay_minutes,weather_risk,sentiment_score,baggage_complaints,delay_complaints,connection_complaints,departure_hour,Stress_Level
-Other,ASB,KRW,110.0,0.5,0.3,27,14,11,10,High
-Other,ASB,BKN,0.0,0.5,0.8,4,30,17,10,Low
-Other,ARN,KGS,0.0,0.5,0.78,20,25,6,8,Low
-Other,ARN,KGS,36.0,0.5,0.74,23,7,5,8,Medium
-Other,ARN,BRU,0.0,0.22,0.89,27,15,3,8,Low
-Other,ARN,BRU,0.0,0.21,0.26,30,28,7,8,Low
-Other,ARN,CPH,0.0,0.21,0.53,2,2,5,8,Low
-Etihad Airways,ARN,CPH,0.0,0.33,0.58,16,25,3,8,Low
-Finnair,ARN,HEL,0.0,0.5,0.93,21,7,11,8,Low
-Qatar Airways,ARN,HEL,44.0,0.5,0.29,28,36,13,8,Medium
-Japan Airlines,ARN,HEL,0.0,0.5,0.48,10,27,1,8,Low
-American Airlines,ARN,HEL,0.0,0.02,0.36,6,33,3,8,Low
-Ryanair,ARN,BDS,0.0,0.5,0.82,4,36,12,7,Low
-Other,ARN,GDN,0.0,0.5,0.51,20,35,17,7,Medium
-Other,ARN,WAW,0.0,0.5,0.37,15,17,11,7,Low
-Other,ARN,WAW,0.0,0.5,0.45,22,8,14,7,Low
-Ryanair,ARN,GDN,19.0,0.5,0.79,18,12,11,7,Low
-Other,ARN,OSL,0.0,0.5,0.31,4,24,11,7,Low
-Other,ARN,OSL,44.0,0.5,0.19,17,35,18,7,Medium
-Norwegian,ARN,HEL,105.0,0.5,0.82,12,5,12,7,Medium
-Norwegian,ARN,LLA,49.0,0.5,0.7,15,1,9,7,Medium
-Other,ARN,SPU,0.0,0.5,0.74,9,2,2,7,Low
-Finnair,ARN,HEL,0.0,0.5,0.49,22,25,0,7,Low
-Other,ARN,LCA,0.0,0.5,0.4,11,22,2,7,Low
-Other,ARN,BOO,0.0,0.5,0.82,10,37,17,7,Low
-Ryanair,ARN,BGY,0.0,0.5,0.69,1,19,15,7,Low
-Other,ARN,LCA,0.0,0.5,0.2,21,6,20,7,Medium
-Norwegian,ARN,UME,0.0,0.5,0.4,8,30,8,7,Low
-Other,ARN,BER,0.0,0.5,0.73,27,37,1,7,Low
-Other,ARN,BER,0.0,0.5,0.44,0,16,10,7,Low
-British Airways,ARN,LHR,0.0,0.5,0.57,16,39,10,7,Medium
-Finnair,ARN,LHR,101.0,0.5,0.52,22,21,0,7,Medium
-Japan Airlines,ARN,LHR,0.0,0.5,0.72,28,15,7,7,Low
-Iberia,ARN,LHR,0.0,0.5,0.17,25,8,6,7,Medium
-Cathay Pacific,ARN,LHR,70.0,0.5,0.8,24,37,5,7,Medium
-Other,ARN,LHR,47.0,0.5,0.8,17,29,3,7,Medium
-American Airlines,ARN,LHR,0.0,0.5,0.79,1,33,2,7,Low
-Other,ARN,KGS,0.0,0.5,0.79,12,38,14,7,Low
-Other,ARK,ZNZ,109.0,0.5,1.0,28,11,13,9,Medium
-Other,ARK,WIL,52.0,0.5,0.63,8,16,5,8,Medium
-Other,ARK,WIL,78.0,0.5,0.16,1,19,9,8,Medium
-Other,ARK,LKY,0.0,0.5,0.2,29,16,0,8,Medium
-Other,ARK,LKY,0.0,0.5,0.92,6,34,7,8,Low
-Virgin Atlantic,DEL,BBI,0.0,0.5,0.87,23,23,5,9,Low
-British Airways,DEL,BBI,0.0,0.5,0.68,29,8,16,9,Low
-Other,BLR,BBI,0.0,0.5,0.99,6,3,13,8,Low
-Other,RRK,BBI,0.0,0.5,0.21,30,12,18,9,Medium
-Hainan Airlines,HGH,BAV,62.0,0.5,0.41,22,26,2,11,Medium
-Other,HGH,BAV,0.0,0.5,0.22,11,39,17,11,Medium
+airline,origin_airport,destination_airport,departure_hour,avg_delay_minutes,weather_risk
+China Eastern Airlines,TFU,URC,11,0.0,0.21
+China Southern Airlines,TFU,URC,11,0.0,0.21
+China Eastern Airlines,TFU,PKX,11,0.0,0.21
+China Southern Airlines,TFU,CGO,11,0.0,0.21
+Air Canada,YYG,YYZ,5,66.0,0.1
+United Airlines,YYG,YYZ,5,0.0,0.1
+China Airlines,YVR,TPE,2,0.0,0.03
+EVA Air,YVR,TPE,2,0.0,0.03
+Cathay Pacific,YVR,HKG,1,0.0,0.06
+Etihad Airways,PKX,CTU,11,26.0,0.21
+China Southern Airlines,PKX,CTU,11,0.0,0.21
+Finnair,PKX,PVG,11,0.0,0.21
+China Eastern Airlines,PKX,PVG,11,0.0,0.21
+China Southern Airlines,PKX,PVG,11,74.0,0.21
+Japan Airlines,PKX,HND,11,49.0,0.21
+China Eastern Airlines,XUZ,INC,16,0.0,0.23
+Hainan Airlines,XUZ,CAN,16,51.0,0.23
+China Southern Airlines,TFU,XNN,13,28.0,0.26
+China Southern Airlines,XMN,CTU,12,0.0,0.23
+China Southern Airlines,XMN,KMG,11,0.0,0.21
+China Eastern Airlines,XMN,KMG,11,0.0,0.21
+Finnair,XMN,PVG,11,0.0,0.21
+China Eastern Airlines,XMN,PVG,11,0.0,0.21
+China Eastern Airlines,XIY,SHA,11,83.0,0.21
+China Southern Airlines,XIY,SHA,11,0.0,0.21
+Air China,XIY,SHA,11,0.0,0.21
+Asiana Airlines,ICN,WUX,14,0.0,0.27
+Gulf Air,BKK,USM,11,0.0,0.21
+Etihad Airways,BKK,USM,11,0.0,0.21
+Emirates,BKK,USM,11,74.0,0.21
+China Airlines,BKK,USM,11,72.0,0.21
+EVA Air,BKK,USM,11,27.0,0.21
+Finnair,BKK,USM,11,0.0,0.21
+Air France,BKK,USM,11,77.0,0.21
+Singapore Airlines,USM,SIN,13,0.0,0.26
+Qatar Airways,USM,SIN,13,54.0,0.26
+Lufthansa,USM,SIN,13,0.0,0.26
+Etihad Airways,USM,SIN,13,0.0,0.26
+British Airways,USM,SIN,13,0.0,0.26
+Finnair,USM,SIN,13,0.0,0.26
