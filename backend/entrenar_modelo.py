@@ -1,39 +1,111 @@
 import pandas as pd
-from sklearn.model_selection import train_test_split
+import numpy as np
+import joblib
+import matplotlib
+matplotlib.use("Agg")  # backend sin pantalla
+import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import classification_report, accuracy_score
-from sklearn.preprocessing import LabelEncoder
-import joblib # Para guardar el modelo entrenado
+from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn.metrics import (accuracy_score, classification_report,
+                             confusion_matrix, ConfusionMatrixDisplay)
 
-# 1. Cargar el dataset definitivo
-print("Cargando dataset...")
+# ==============================================================================
+#  entrenar_modelo.py  —  Entrena y VALIDA el Random Forest.
+#  Cambios clave:
+#   - Lee el dataset final (sep=';').
+#   - EXCLUYE stress_score y stress_level de las features (si no, hay leakage).
+#   - Split ESTRATIFICADO + class_weight='balanced' (clases desbalanceadas).
+#   - Control de overfitting (max_depth, min_samples_leaf).
+#   - Reporta métricas completas y guarda modelo + reporte + gráficos.
+# ==============================================================================
+
+# Features que SÍ usa el modelo. OJO: stress_score / stress_level NO van acá.
+FEATURES = [
+    'avg_delay_minutes', 'weather_risk', 'baggage_complaints', 'avg_sentiment',
+    'cancellation_strict_rate', 'connection_rate', 'delay_rate',
+    'departure_hour', 'tiene_reviews'
+]
+TARGET = 'stress_level'
+
+print("Cargando datos...")
 df = pd.read_csv('backend/flights_dataset_final.csv', sep=';')
 
-# 2. Preparar los Datos (Features y Target)
-# Separamos lo que el modelo usa para adivinar (X) de lo que tiene que adivinar (y)
-X = df[['avg_delay_minutes', 'weather_risk', 'avg_sentiment', 
-        'cancellation_strict_rate', 'delay_rate']] # Variables clave del estrés
-y = df['stress_level']
+# Si por algún motivo falta 'tiene_reviews', lo derivamos para no romper
+if 'tiene_reviews' not in df.columns:
+    df['tiene_reviews'] = (df['avg_sentiment'] != 0).astype(int)
 
-# 3. Dividir los datos en Entrenamiento y Prueba (80% / 20%)
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+X = df[FEATURES]
+y = df[TARGET]
 
-# 4. Crear y Entrenar el Modelo (Random Forest)
-print("Entrenando el modelo Random Forest (esto puede tomar unos segundos)...")
-rf_model = RandomForestClassifier(n_estimators=100, random_state=42)
-rf_model.fit(X_train, y_train)
+print("Balance de clases:")
+print(y.value_counts(), "\n")
 
-# 5. Evaluar qué tan inteligente se volvió el modelo
-print("\nRealizando predicciones de prueba...")
-y_pred = rf_model.predict(X_test)
+# Split estratificado: mantiene la proporción de clases en train y test
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, random_state=42, stratify=y
+)
 
-print("\n--- Resultados del Modelo ---")
-print(f"Precisión General (Accuracy): {accuracy_score(y_test, y_pred) * 100:.2f}%")
-print("\nDetalle por Nivel de Estrés:")
-print(classification_report(y_test, y_pred))
+# Random Forest con pesos balanceados + límites para no sobreajustar
+modelo = RandomForestClassifier(
+    n_estimators=300,
+    max_depth=12,
+    min_samples_leaf=5,
+    class_weight='balanced',
+    random_state=42,
+    n_jobs=-1
+)
+print("Entrenando Random Forest...")
+modelo.fit(X_train, y_train)
 
-# 6. Guardar el "Cerebro" (Exportar el modelo)
-# Esto crea un archivo .pkl que tu backend en Flask cargará después para la web
-print("\nGuardando modelo en 'flight_risk_model.pkl'...")
-joblib.dump(rf_model, 'backend/flight_risk_model.pkl')
-print("¡Entrenamiento y guardado completados con éxito!")
+# --- Diagnóstico de overfitting ---
+acc_train = accuracy_score(y_train, modelo.predict(X_train))
+acc_test = accuracy_score(y_test, modelo.predict(X_test))
+y_pred = modelo.predict(X_test)
+
+# --- Cross-validation (5 folds) ---
+cv = cross_val_score(modelo, X, y, cv=5, scoring='f1_macro')
+
+# --- Reporte ---
+clases = sorted(y.unique())
+reporte = classification_report(y_test, y_pred)
+cm = confusion_matrix(y_test, y_pred, labels=clases)
+importancias = sorted(zip(FEATURES, modelo.feature_importances_), key=lambda x: -x[1])
+
+texto = []
+texto.append("=== DIAGNÓSTICO DE AJUSTE ===")
+texto.append(f"Precisión en Entrenamiento: {acc_train*100:.2f}%")
+texto.append(f"Precisión en Prueba (test): {acc_test*100:.2f}%")
+texto.append(f"Brecha train-test: {(acc_train-acc_test)*100:.2f} pts")
+texto.append(f"F1-macro cross-val (5 folds): {cv.mean():.3f} +/- {cv.std():.3f}")
+texto.append("\n=== IMPORTANCIA DE VARIABLES ===")
+for f, imp in importancias:
+    texto.append(f"  {f}: {imp*100:.2f}%")
+texto.append("\n=== MATRIZ DE CONFUSIÓN (filas=real, columnas=predicho) ===")
+texto.append("Clases: " + str(clases))
+texto.append(str(cm))
+texto.append("\n=== REPORTE DE CLASIFICACIÓN ===")
+texto.append(reporte)
+reporte_final = "\n".join(texto)
+print("\n" + reporte_final)
+
+# --- Guardar artefactos ---
+joblib.dump(modelo, 'backend/modelo_stress.pkl')
+with open('backend/metricas.txt', 'w', encoding='utf-8') as f:
+    f.write(reporte_final)
+
+# Matriz de confusión (PNG)
+fig, ax = plt.subplots(figsize=(5, 4))
+ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=clases).plot(ax=ax, cmap='Blues')
+ax.set_title('Matriz de Confusión - FlightRisk')
+plt.tight_layout(); plt.savefig('backend/matriz_confusion.png', dpi=120); plt.close()
+
+# Importancia de variables (PNG)
+fig, ax = plt.subplots(figsize=(6, 4))
+nombres = [f for f, _ in importancias][::-1]
+valores = [i for _, i in importancias][::-1]
+ax.barh(nombres, valores, color='#2563eb')
+ax.set_title('Importancia de Variables (Random Forest)')
+ax.set_xlabel('Importancia')
+plt.tight_layout(); plt.savefig('backend/importancia_features.png', dpi=120); plt.close()
+
+print("\nGuardado: modelo_stress.pkl, metricas.txt, matriz_confusion.png, importancia_features.png")

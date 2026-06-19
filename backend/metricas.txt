@@ -1,0 +1,33 @@
+=== DIAGNÓSTICO DE AJUSTE ===
+Precisión en Entrenamiento: 76.20%
+Precisión en Prueba (test): 66.48%
+Brecha train-test: 9.72 pts
+F1-macro cross-val (5 folds): 0.657 +/- 0.017
+
+=== IMPORTANCIA DE VARIABLES ===
+  avg_delay_minutes: 60.48%
+  avg_sentiment: 7.83%
+  weather_risk: 7.66%
+  departure_hour: 6.17%
+  delay_rate: 5.55%
+  baggage_complaints: 4.60%
+  cancellation_strict_rate: 4.25%
+  connection_rate: 3.05%
+  tiene_reviews: 0.42%
+
+=== MATRIZ DE CONFUSIÓN (filas=real, columnas=predicho) ===
+Clases: ['High', 'Low', 'Medium']
+[[35  0  5]
+ [ 0 61 21]
+ [11 24 25]]
+
+=== REPORTE DE CLASIFICACIÓN ===
+              precision    recall  f1-score   support
+
+        High       0.76      0.88      0.81        40
+         Low       0.72      0.74      0.73        82
+      Medium       0.49      0.42      0.45        60
+
+    accuracy                           0.66       182
+   macro avg       0.66      0.68      0.66       182
+weighted avg       0.65      0.66      0.66       182
