@@ -3,7 +3,7 @@ __pycache__/
 .venv/
 
 # Datos locales
-*.csv
+# *.csv
 
 # Entorno React/Node
 frontend/node_modules/
