@@ -47,43 +47,43 @@ Hainan Airlines,PVG,HKG,11,21.0,0.18
 China Express Airlines,PVG,TFU,11,33.0,0.18
 Air Century,JBQ,CUR,7,65.0,0.05
 euroairlines,JBQ,CUR,7,0.0,0.05
-United Airlines,JAX,IAH,7,0.0,0.09
-Air New Zealand,JAX,IAH,7,0.0,0.09
-All Nippon Airways,JAX,IAH,7,40.0,0.09
-Air Canada,JAX,IAH,7,0.0,0.09
-American Airlines,JAX,PHL,7,19.0,0.09
-British Airways,JAX,PHL,7,0.0,0.09
-Delta Air Lines,JAX,ATL,7,0.0,0.09
-WestJet,JAX,ATL,7,0.0,0.08
-LATAM Airlines,JAX,ATL,7,0.0,0.08
-Korean Air,JAX,ATL,7,0.0,0.08
-Aeromexico,JAX,ATL,7,23.0,0.08
-American Airlines,JAX,MIA,7,0.0,0.08
-Qatar Airways,JAX,MIA,7,111.0,0.08
-British Airways,JAX,MIA,7,0.0,0.08
-Southwest Airlines,JAX,BWI,6,0.0,0.11
-American Airlines,JAX,ORD,6,0.0,0.11
-AlphaSky,JAX,ORD,6,0.0,0.11
-Delta Air Lines,JAX,BOS,6,0.0,0.11
-Virgin Atlantic,JAX,BOS,6,0.0,0.11
-SAS,JAX,BOS,6,0.0,0.11
-United Airlines,JAX,EWR,6,0.0,0.11
-Air Canada,JAX,EWR,6,23.0,0.11
-American Airlines,JAX,CLT,6,0.0,0.11
-Southwest Airlines,JAX,BNA,6,0.0,0.11
-American Airlines,JAX,CLT,6,40.0,0.11
-Delta Air Lines,JAX,LGA,6,58.0,0.11
-WestJet,JAX,LGA,6,117.0,0.11
+United Airlines,JAX,IAH,7,0.0,0.1
+Air New Zealand,JAX,IAH,7,0.0,0.1
+All Nippon Airways,JAX,IAH,7,40.0,0.1
+Air Canada,JAX,IAH,7,0.0,0.1
+American Airlines,JAX,PHL,7,19.0,0.1
+British Airways,JAX,PHL,7,0.0,0.1
+Delta Air Lines,JAX,ATL,7,0.0,0.1
+WestJet,JAX,ATL,7,0.0,0.1
+LATAM Airlines,JAX,ATL,7,0.0,0.1
+Korean Air,JAX,ATL,7,0.0,0.1
+Aeromexico,JAX,ATL,7,23.0,0.1
+American Airlines,JAX,MIA,7,0.0,0.1
+Qatar Airways,JAX,MIA,7,111.0,0.1
+British Airways,JAX,MIA,7,0.0,0.1
+Southwest Airlines,JAX,BWI,6,0.0,0.12
+American Airlines,JAX,ORD,6,0.0,0.12
+AlphaSky,JAX,ORD,6,0.0,0.12
+Delta Air Lines,JAX,BOS,6,0.0,0.12
+Virgin Atlantic,JAX,BOS,6,0.0,0.12
+SAS,JAX,BOS,6,0.0,0.12
+United Airlines,JAX,EWR,6,0.0,0.12
+Air Canada,JAX,EWR,6,23.0,0.12
+American Airlines,JAX,CLT,6,0.0,0.12
+Southwest Airlines,JAX,BNA,6,0.0,0.12
+American Airlines,JAX,CLT,6,40.0,0.12
+Delta Air Lines,JAX,LGA,6,58.0,0.12
+WestJet,JAX,LGA,6,117.0,0.12
 Air Greenland,JAV,GOH,9,0.0,0.1
-Delta Air Lines,JAN,ATL,5,0.0,0.09
-Delta Air Lines,JAN,ATL,5,0.0,0.09
-WestJet,JAN,ATL,5,0.0,0.09
-Korean Air,JAN,ATL,5,0.0,0.09
-Aeromexico,JAN,ATL,5,0.0,0.09
-American Airlines,JAN,DFW,5,0.0,0.09
-American Airlines,JAN,CLT,5,0.0,0.09
-Southwest Airlines,JAN,HOU,5,0.0,0.09
-Baker Aviation,JAC,VNY,4,82.0,0.03
+Delta Air Lines,JAN,ATL,5,0.0,0.05
+Delta Air Lines,JAN,ATL,5,0.0,0.05
+WestJet,JAN,ATL,5,0.0,0.05
+Korean Air,JAN,ATL,5,0.0,0.05
+Aeromexico,JAN,ATL,5,0.0,0.05
+American Airlines,JAN,DFW,5,0.0,0.05
+American Airlines,JAN,CLT,5,0.0,0.05
+Southwest Airlines,JAN,HOU,5,0.0,0.05
+Baker Aviation,JAC,VNY,4,82.0,0.04
 AlphaSky,HND,IZO,18,76.0,0.04
 Finnair,HND,IZO,18,0.0,0.04
 Virgin Atlantic,DEL,IXR,14,0.0,0.07
@@ -183,8 +183,8 @@ Etihad Airways,HKG,KIX,14,0.0,0.22
 Turkish Airlines,HKG,KIX,14,0.0,0.22
 Ryanair,GDN,BOJ,13,89.0,0.13
 Japan Airlines,HND,FUK,12,0.0,0.05
-Japan Airlines,HND,FUK,11,0.0,0.05
-Japan Airlines,FUK,HND,12,88.0,0.08
+Japan Airlines,HND,FUK,11,0.0,0.06
+Japan Airlines,FUK,HND,12,88.0,0.1
 LATAM Airlines,EZE,BRC,7,0.0,0.12
 Japan Airlines,AKL,SYD,18,39.0,0.06
 Emirates,AKL,SYD,18,0.0,0.06
@@ -192,24 +192,24 @@ China Airlines,AKL,SYD,18,0.0,0.06
 Finnair,AKL,SYD,18,81.0,0.06
 AlphaSky,AKL,SYD,18,0.0,0.06
 Paranair,MVD,ASU,1,0.0,0.13
-Air New Zealand,ATL,IAH,7,0.0,0.11
-All Nippon Airways,ATL,IAH,7,0.0,0.11
-KLM,ATL,PBI,7,0.0,0.11
-GOL,ATL,MIA,7,0.0,0.11
-British Airways,ATL,MIA,7,0.0,0.11
-Japan Airlines,ATL,BOS,7,78.0,0.11
-Etihad Airways,ATL,BOS,7,56.0,0.11
-United Airlines,ATL,YYZ,7,0.0,0.11
-Volaris,ATL,ORD,6,0.0,0.17
-Virgin Australia,ATL,SFO,6,80.0,0.17
-Air New Zealand,ATL,SFO,6,0.0,0.17
-Air Canada,ATL,EWR,6,0.0,0.17
-Volaris,ATL,IAH,6,0.0,0.17
-Qatar Airways,ATL,JFK,6,0.0,0.17
-LOT,ATL,JFK,6,0.0,0.17
-Japan Airlines,ATL,JFK,6,0.0,0.17
-Etihad Airways,ATL,JFK,6,88.0,0.17
-AlphaSky,ATL,DFW,6,98.0,0.17
+Air New Zealand,ATL,IAH,7,0.0,0.12
+All Nippon Airways,ATL,IAH,7,0.0,0.12
+KLM,ATL,PBI,7,0.0,0.12
+GOL,ATL,MIA,7,0.0,0.12
+British Airways,ATL,MIA,7,0.0,0.12
+Japan Airlines,ATL,BOS,7,78.0,0.12
+Etihad Airways,ATL,BOS,7,56.0,0.12
+United Airlines,ATL,YYZ,7,0.0,0.12
+Volaris,ATL,ORD,6,0.0,0.16
+Virgin Australia,ATL,SFO,6,80.0,0.16
+Air New Zealand,ATL,SFO,6,0.0,0.16
+Air Canada,ATL,EWR,6,0.0,0.16
+Volaris,ATL,IAH,6,0.0,0.16
+Qatar Airways,ATL,JFK,6,0.0,0.16
+LOT,ATL,JFK,6,0.0,0.16
+Japan Airlines,ATL,JFK,6,0.0,0.16
+Etihad Airways,ATL,JFK,6,88.0,0.16
+AlphaSky,ATL,DFW,6,98.0,0.16
 Ethiopian Airlines,ATL,IAD,5,95.0,0.17
 DHL Air,ATL,CVG,0,0.0,0.07
 Avincis,AES,SKN,9,0.0,0.1
@@ -242,17 +242,17 @@ Juneyao Air,LHW,SHA,17,83.0,0.05
 Xiamen Air,LHW,SHA,17,0.0,0.05
 China Express Airlines,LHW,SHA,17,0.0,0.05
 Shandong Airlines,LHW,NKG,17,0.0,0.05
-Porter Airlines Canada,YYZ,CUN,7,0.0,0.15
-Qantas,YYZ,YYC,7,58.0,0.15
-Delta Air Lines,YYZ,YYC,7,65.0,0.15
-Aeromexico,YYZ,YYC,7,0.0,0.15
-Air New Zealand,YYZ,ORD,7,51.0,0.15
-Air Canada,YYZ,ORD,7,0.0,0.15
-Air Transat,YYZ,YOW,7,0.0,0.15
-Emirates,YYZ,YUL,7,0.0,0.15
-Qatar Airways,YYZ,DFW,6,0.0,0.15
-Porter Airlines Canada,YYZ,DFW,6,0.0,0.15
-Japan Airlines,YYZ,DFW,6,0.0,0.15
+Porter Airlines Canada,YYZ,CUN,7,0.0,0.14
+Qantas,YYZ,YYC,7,58.0,0.14
+Delta Air Lines,YYZ,YYC,7,65.0,0.14
+Aeromexico,YYZ,YYC,7,0.0,0.14
+Air New Zealand,YYZ,ORD,7,51.0,0.14
+Air Canada,YYZ,ORD,7,0.0,0.14
+Air Transat,YYZ,YOW,7,0.0,0.14
+Emirates,YYZ,YUL,7,0.0,0.14
+Qatar Airways,YYZ,DFW,6,0.0,0.12
+Porter Airlines Canada,YYZ,DFW,6,0.0,0.12
+Japan Airlines,YYZ,DFW,6,0.0,0.12
 Qatar Airways,MEL,ZQN,11,0.0,0.1
 Air India,MEL,ZQN,11,0.0,0.1
 Air India,ZQN,SYD,15,35.0,0.03
@@ -281,9 +281,9 @@ Austrian Airlines,PER,BKK,16,0.0,0.08
 El Al,PER,BKK,16,110.0,0.08
 IndiGo,PER,SYD,16,0.0,0.08
 Oman Air,PER,KUL,15,0.0,0.08
-Jetstar,NRT,OKA,13,62.0,0.07
+Jetstar,NRT,OKA,13,62.0,0.05
 Japan Airlines,OKA,HND,13,0.0,0.14
-Oyonnair,NTE,BOD,8,0.0,0.03
+Oyonnair,NTE,BOD,8,0.0,0.06
 Japan Airlines,NRT,MEL,18,0.0,0.05
 Japan Airlines,NRT,DFW,18,58.0,0.05
 Vietnam Airlines,NRT,HAN,18,0.0,0.05
@@ -309,3 +309,602 @@ WestJet,NRT,BKK,18,98.0,0.05
 SriLankan Airlines,NRT,BKK,18,0.0,0.05
 Bangkok Airways,NRT,BKK,18,78.0,0.05
 American Airlines,NRT,BKK,18,0.0,0.05
+United Airlines,JNB,WVB,10,0.0,0.12
+Qatar Airways,JNB,WVB,10,0.0,0.12
+Qantas,JNB,WVB,10,0.0,0.12
+Swiss,JNB,WVB,10,0.0,0.12
+Lufthansa,JNB,WVB,10,0.0,0.12
+KLM,JNB,WVB,10,57.0,0.12
+Emirates,JNB,WVB,10,22.0,0.12
+British Airways,JNB,WVB,10,74.0,0.12
+Hebei Airlines,JJN,NKG,18,0.0,0.1
+Sichuan Airlines,JJN,NKG,18,0.0,0.1
+China Eastern Airlines,JJN,NKG,18,0.0,0.1
+China Express Airlines,JJN,NKG,18,100.0,0.1
+Shandong Airlines,JJN,TFU,17,47.0,0.11
+Air China,JJN,TFU,17,0.0,0.11
+Ethiopian Airlines,JIJ,ADD,13,0.0,0.07
+Ethiopian Airlines,JIJ,GDE,8,0.0,0.2
+Shandong Airlines,SZX,INC,14,70.0,0.2
+Juneyao Air,SZX,INC,14,0.0,0.2
+Air China,SZX,INC,14,100.0,0.2
+Tibet Airlines,INC,CSX,17,0.0,0.15
+China Southern Airlines,INC,CSX,17,0.0,0.15
+China Express Airlines,INC,CSX,17,0.0,0.15
+China Eastern Airlines,INC,CSX,17,41.0,0.15
+Sichuan Airlines,INC,CSX,17,0.0,0.15
+Chengdu Airlines,INC,CSX,17,0.0,0.15
+Xiamen Air,INC,TAO,17,59.0,0.15
+Shenzhen Airlines,INC,PEK,17,0.0,0.15
+Shandong Airlines,INC,PEK,17,94.0,0.15
+American Airlines,ILM,CAE,0,0.0,0.25
+Iberia,GRX,MAD,6,0.0,0.01
+Shenzhen Airlines,DLC,TAO,18,90.0,0.06
+Tibet Airlines,DLC,TAO,18,0.0,0.06
+China Express Airlines,DLC,TAO,18,33.0,0.06
+Air China,DLC,TAO,18,59.0,0.06
+Sichuan Airlines,DLC,XIY,17,0.0,0.06
+Shenzhen Airlines,DLC,PVG,17,0.0,0.06
+China Eastern Airlines,DLC,PVG,17,0.0,0.06
+Xiamen Air,DLC,PVG,17,0.0,0.06
+China Southern Airlines,DLC,PVG,17,0.0,0.06
+Sichuan Airlines,DLC,PVG,17,0.0,0.06
+Loong Air,DLC,CGO,17,44.0,0.06
+Tibet Airlines,DLC,TNA,16,116.0,0.08
+China Express Airlines,DLC,TNA,16,38.0,0.08
+Air China,DLC,TNA,16,0.0,0.08
+Shenzhen Airlines,DLC,TNA,16,0.0,0.08
+FedEx,AFW,DEN,3,0.0,0.13
+Vietnam Airlines,DEL,LHR,11,0.0,0.11
+Malawi Airlines,DAR,BLZ,7,0.0,0.12
+Eurowings,PRG,VAR,7,0.0,0.09
+QantasLink,PHE,PER,17,0.0,0.19
+Air New Zealand,PER,SYD,16,0.0,0.08
+Oman Air,PER,BKK,16,0.0,0.08
+QantasLink,PER,PHE,14,0.0,0.07
+easyJet,CDG,NTE,6,115.0,0.13
+Jetstar,OKA,NRT,13,1.0,0.14
+Hebridean Air Services,OBN,COL,8,0.0,0.23
+Skybus,NQY,ISC,11,0.0,0.23
+Ryanair,NQY,FAO,10,0.0,0.21
+Skybus,NQY,ISC,9,0.0,0.18
+Etihad Airways,NKG,PKX,14,0.0,0.2
+Xiamen Air,NKG,PKX,14,0.0,0.2
+China United Airlines,NKG,PKX,14,0.0,0.2
+China Southern Airlines,NKG,PKX,14,0.0,0.2
+Shandong Airlines,NKG,CGQ,14,90.0,0.2
+Air China,NKG,CGQ,14,0.0,0.2
+Xiamen Air,NKG,SZX,14,0.0,0.2
+China Eastern Airlines,NGB,XMN,17,0.0,0.14
+China Express Airlines,NGB,XMN,17,0.0,0.14
+Xiamen Air,NGB,CAN,17,101.0,0.14
+Shenzhen Airlines,NGB,TAO,16,0.0,0.13
+Tibet Airlines,NGB,TAO,16,0.0,0.13
+Lufthansa City,BER,MUC,7,76.0,0.08
+Turkish Airlines,MSU,JNB,11,0.0,0.05
+Qatar Airways,MSU,JNB,11,99.0,0.05
+Emirates,MSU,JNB,11,0.0,0.05
+Air France,MSU,JNB,11,67.0,0.05
+United Airlines,MXP,ZRH,10,0.0,0.04
+Alitalia,MXP,ZRH,10,0.0,0.04
+Air Canada,MXP,ZRH,10,26.0,0.04
+American Airlines,ROA,MLI,0,105.0,0.06
+FedEx,MEM,ORD,3,0.0,0.01
+Thai Airways,IST,AMS,7,0.0,0.17
+Pakistan International Airlines,IST,AMS,7,0.0,0.17
+Gulf Air,IST,AMS,7,0.0,0.17
+Icelandair,IST,AMS,7,36.0,0.17
+IndiGo,IST,AMS,7,0.0,0.17
+RwandAir,IST,CDG,7,0.0,0.17
+United Airlines,IST,CDG,7,106.0,0.17
+Pakistan International Airlines,IST,CDG,7,0.0,0.17
+Air Zeta,CAN,ICN,10,110.0,0.08
+Japan Airlines,OBO,HND,13,99.0,0.04
+Japan Airlines,TAK,HND,13,0.0,0.03
+Hokkaido Air System,OKD,HKD,12,0.0,0.12
+Japan Airlines,HND,SHA,14,0.0,0.03
+Shanghai Airlines,HND,SHA,14,0.0,0.03
+Japan Airlines,HND,NGS,13,0.0,0.04
+China Eastern Airlines,LZY,TFU,10,0.0,0.07
+Xiamen Air,LZY,TFU,10,110.0,0.07
+Juneyao Air,LZY,TFU,10,0.0,0.07
+China Express Airlines,LZY,TFU,10,0.0,0.07
+Chengdu Airlines,LZY,TFU,10,0.0,0.07
+Hunnu Air,MXV,UBN,11,8.0,0.2
+Xiamen Air,NKG,LHW,14,0.0,0.2
+FlyArystan,NQZ,URA,10,0.0,0.26
+ULS Airlines Cargo,ALG,ZRH,3,0.0,0.06
+Beijing Airlines,JUZ,PKX,12,102.0,0.2
+Xiamen Air,PKX,HGH,13,0.0,0.09
+China United Airlines,PKX,HGH,13,0.0,0.09
+China Southern Airlines,PKX,HGH,13,0.0,0.09
+Cathay Pacific,PKX,HKG,13,0.0,0.09
+China Eastern Airlines,PKX,SZX,13,25.0,0.09
+Lufthansa,PKX,FRA,13,0.0,0.09
+Sichuan Airlines,PKX,CSX,13,0.0,0.09
+KLM,PKX,HGH,13,99.0,0.09
+China Southern Airlines,PKX,HGH,13,69.0,0.09
+Juneyao Air,YIN,SHA,17,0.0,0.06
+Shenzhen Airlines,PEK,XNN,15,0.0,0.02
+Shenzhen Airlines,XNN,PEK,18,0.0,0.09
+Shenzhen Airlines,XNN,CTU,18,70.0,0.09
+Shandong Airlines,XNN,CTU,18,0.0,0.09
+Kunming Airlines,XNN,CTU,18,0.0,0.09
+Loong Air,XNN,CTU,18,56.0,0.09
+Chengdu Airlines,XNN,CTU,18,28.0,0.09
+Hainan Airlines,XUZ,SHE,18,0.0,0.06
+Tibet Airlines,XUZ,SHE,18,0.0,0.06
+China Southern Airlines,XUZ,SHE,18,88.0,0.06
+Xiamen Air,XMN,KMG,14,0.0,0.18
+Sichuan Airlines,XMN,KMG,14,114.0,0.18
+Juneyao Air,XMN,SHA,14,35.0,0.18
+Xiamen Air,XMN,SHA,14,0.0,0.18
+Bangkok Airways,XMN,BKK,14,0.0,0.18
+Tibet Airlines,XMN,CTU,13,0.0,0.2
+China Eastern Airlines,XMN,CTU,13,75.0,0.2
+Loong Air,XMN,CTU,13,0.0,0.2
+Sichuan Airlines,XIY,HRB,13,0.0,0.04
+China Southern Airlines,XIY,XMN,13,111.0,0.04
+Hebei Airlines,XIY,XMN,13,61.0,0.04
+Sterling Aviation,FDK,PHL,7,0.0,0.09
+Aero Ways,ILG,PHL,7,53.0,0.13
+American Airlines,ILG,PHL,6,0.0,0.15
+American Airlines,ART,PHL,6,69.0,0.27
+Pelita Air,PKU,CGK,18,0.0,0.02
+Super Air Jet,PKU,CGK,18,0.0,0.02
+American Airlines,PIT,PHL,8,60.0,0.06
+Aer Lingus,PIT,PHL,8,62.0,0.06
+Southwest Airlines,PIT,MCO,8,0.0,0.06
+American Airlines,PIT,RDU,8,60.0,0.06
+Allegiant Air,PIT,AUS,8,22.0,0.06
+American Airlines,PIT,ORD,8,0.0,0.06
+Qantas,PIT,ORD,8,0.0,0.06
+Japan Airlines,PIT,ORD,8,112.0,0.06
+American Airlines,PIT,PHX,7,0.0,0.09
+AlphaSky,PIT,PHX,7,0.0,0.09
+Alaska Airlines,PIT,SEA,7,0.0,0.09
+Finnair,PIT,SEA,7,0.0,0.09
+JetBlue,PIT,FLL,7,0.0,0.09
+United Airlines,PIT,EWR,7,116.0,0.09
+Delta Air Lines,PIT,JFK,7,0.0,0.09
+Virgin Atlantic,PIT,JFK,7,88.0,0.09
+SAS,PIT,JFK,7,0.0,0.09
+LATAM Airlines,PIT,JFK,7,0.0,0.09
+KLM,PIT,JFK,7,0.0,0.09
+Korean Air,PIT,JFK,7,0.0,0.09
+American Airlines,PIT,DFW,7,0.0,0.09
+Qatar Airways,PIT,DFW,7,0.0,0.09
+Japan Airlines,PIT,DFW,7,0.0,0.09
+AlphaSky,PIT,DFW,7,0.0,0.09
+Southwest Airlines,PIT,LAS,7,0.0,0.09
+Republic Airways,PIT,ROA,6,0.0,0.08
+Sun Country Airlines,PIT,LAL,3,39.0,0.11
+SkyWest Airlines,PIR,DEN,6,40.0,0.13
+247 Aviation,PIK,BFS,13,103.0,0.2
+SkyShare,PIH,SLC,0,0.0,0.16
+Allegiant Air,PIE,MCI,8,19.0,0.08
+Allegiant Air,PIE,OMA,7,0.0,0.09
+Allegiant Air,PIE,COS,7,0.0,0.09
+Allegiant Air,PIE,BMI,7,0.0,0.09
+Allegiant Air,PIE,ALB,7,108.0,0.09
+United Airlines,PIA,ORD,6,33.0,0.07
+Air New Zealand,PIA,ORD,6,0.0,0.07
+Copa Airlines,PIA,ORD,6,0.0,0.07
+American Airlines,PIA,DFW,6,0.0,0.07
+American Airlines,PHX,PHL,5,30.0,0.09
+Aer Lingus,PHX,PHL,5,0.0,0.09
+Sundair,MPM,APL,6,0.0,0.17
+Thai Airways,AGP,IST,11,34.0,0.11
+Etihad Airways,PVG,ACX,16,0.0,0.2
+Juneyao Air,PVG,ACX,16,0.0,0.2
+Flexjet,TEB,ACK,6,38.0,0.15
+Cape Air,EWB,ACK,7,0.0,0.1
+Qatar Airways,BCN,ACE,10,35.0,0.15
+Miami Air International,BCN,ACE,10,0.0,0.15
+Iberia,BCN,ACE,10,101.0,0.15
+PassionAir,NYI,ACC,10,0.0,0.12
+PassionAir,NYI,ACC,10,0.0,0.12
+IndiGo,AMS,ABZ,11,0.0,0.18
+Virgin Atlantic,AMS,ABZ,11,0.0,0.18
+Kenya Airways,AMS,ABZ,11,27.0,0.18
+Delta Air Lines,AMS,ABZ,11,90.0,0.18
+Overland Airways,GMO,ABV,12,17.0,0.07
+China United Airlines,ACX,PKX,19,0.0,0.02
+China Eastern Airlines,ACX,PKX,19,0.0,0.02
+Flexjet,ACK,TEB,8,0.0,0.21
+Cape Air,ACK,MVY,8,72.0,0.21
+JetBlue,ACK,MVY,8,69.0,0.21
+Flexjet,ACK,TEB,8,0.0,0.21
+Cape Air,ACK,MVY,7,99.0,0.15
+Vueling,ACE,BCN,13,0.0,0.11
+Qatar Airways,ACE,BCN,13,120.0,0.11
+Miami Air International,ACE,BCN,13,45.0,0.11
+Iberia,ACE,BCN,13,0.0,0.11
+Ryanair,ACE,STN,13,0.0,0.11
+Aer Lingus,ACE,DUB,12,0.0,0.1
+Binter Canarias,ACE,TFN,12,0.0,0.1
+Binter Canarias,ACE,LPA,12,0.0,0.1
+Jettime,ACE,BLL,12,0.0,0.1
+easyJet,ACE,BFS,12,0.0,0.1
+Ryanair,ACE,AGP,12,0.0,0.1
+Africa World Airlines,ACC,KMS,11,105.0,0.12
+euroairlines,ACC,KMS,11,22.0,0.12
+Qatar Airways,ACC,DOH,11,0.0,0.12
+Virgin Australia,ACC,DOH,11,0.0,0.12
+RwandAir,ACC,DOH,11,22.0,0.12
+Oman Air,ACC,DOH,11,0.0,0.12
+Xiamen Air,ACC,DOH,11,0.0,0.12
+KLM,ABZ,AMS,12,0.0,0.24
+IndiGo,ABZ,AMS,12,0.0,0.24
+Virgin Atlantic,ABZ,AMS,12,84.0,0.24
+China Eastern Airlines,ABZ,AMS,12,0.0,0.24
+Xiamen Air,SJW,LHW,20,0.0,0.03
+Jiangxi Air,SJW,HGH,19,0.0,0.05
+Xiamen Air,SJW,HGH,19,0.0,0.05
+China Southern Airlines,SJW,HGH,19,0.0,0.05
+Shandong Airlines,SJW,ZQZ,19,0.0,0.05
+Xiamen Air,SJW,ZQZ,19,0.0,0.05
+Lufthansa,MUC,RJK,10,16.0,0.07
+NetJets,RAK,BCN,10,57.0,0.09
+SAS,PVK,HAU,11,0.0,0.12
+Air China,PVG,AKL,14,0.0,0.19
+China Eastern Airlines,PVG,XMN,13,0.0,0.21
+Air France,PVG,KMG,13,0.0,0.21
+Etihad Airways,PVG,KMG,13,57.0,0.21
+KLM,PVG,KMG,13,0.0,0.21
+Juneyao Air,PVG,KMG,13,0.0,0.21
+Xiamen Air,PVG,KMG,13,0.0,0.21
+China Eastern Airlines,PVG,SHE,13,25.0,0.21
+Etihad Airways,PVG,TAO,13,0.0,0.21
+Air France,PVG,TAO,13,26.0,0.21
+KLM,PVG,TAO,13,0.0,0.21
+Xiamen Air,PVG,TAO,13,112.0,0.21
+IndiGo,AMS,PRG,12,0.0,0.2
+WestJet,AMS,PRG,12,0.0,0.2
+Delta Air Lines,AMS,PRG,12,116.0,0.2
+China Airlines,AMS,PRG,12,0.0,0.2
+United Airlines,FRA,PRG,12,0.0,0.03
+Luxair,FRA,PRG,12,0.0,0.03
+Alitalia,FRA,PRG,12,39.0,0.03
+Air India,FRA,PRG,12,99.0,0.03
+Air Canada,FRA,PRG,12,0.0,0.03
+American Airlines,PRG,DUB,11,0.0,0.1
+Eurowings,PRG,TFS,11,40.0,0.1
+United Airlines,PRG,FRA,11,0.0,0.1
+Fleet Air International,BCN,PMI,8,0.0,0.1
+NetJets,PMI,RMU,9,0.0,0.17
+Aeropyrenees,BZR,PGF,13,0.0,0.21
+South African Airways,MEL,PER,15,0.0,0.11
+Etihad Airways,MEL,PER,15,0.0,0.11
+Air China,MEL,PER,15,0.0,0.11
+Aeropyrenees,PGF,BZR,12,114.0,0.24
+Lufthansa,PER,SIN,16,0.0,0.08
+Ethiopian Airlines,PER,SIN,16,16.0,0.08
+Air India,PER,SIN,16,0.0,0.08
+Air Canada,PER,SIN,16,52.0,0.08
+AlphaSky,PER,MEL,16,0.0,0.08
+Air New Zealand,PER,MEL,16,0.0,0.08
+United States - Coast Guard,OTP,BCM,9,60.0,0.09
+Transavia,ORY,VIE,10,80.0,0.11
+Transavia,ORY,IST,10,0.0,0.11
+Azores Airlines,ORY,LIS,10,63.0,0.11
+LATAM Airlines,ORY,LIS,10,0.0,0.11
+Azul,ORY,LIS,10,43.0,0.11
+Air New Zealand,ORD,ROC,6,0.0,0.09
+Air Canada,ORD,ROC,6,0.0,0.09
+Air New Zealand,ORD,ORF,6,37.0,0.09
+Air Canada,ORD,ORF,6,104.0,0.09
+Air New Zealand,ORD,ROA,6,0.0,0.09
+Air New Zealand,ORD,CLT,6,0.0,0.09
+Air Canada,ORD,CLT,6,88.0,0.09
+Aer Lingus,ORD,BNA,6,0.0,0.09
+AlphaSky,ORD,BNA,6,33.0,0.09
+Japan Airlines,ORD,SAN,6,0.0,0.09
+Aer Lingus,ORD,SAN,6,0.0,0.09
+British Airways,ORD,SAN,6,0.0,0.09
+Aer Lingus,ORD,CLE,6,92.0,0.09
+British Airways,ORD,CLE,6,0.0,0.09
+AlphaSky,ORD,CLE,6,32.0,0.09
+AlphaSky,ORD,BUF,6,0.0,0.09
+Aer Lingus,ORD,MKE,6,26.0,0.09
+AlphaSky,ORD,MKE,6,0.0,0.09
+British Airways,ORD,MSN,6,0.0,0.09
+AlphaSky,ORD,MSN,6,111.0,0.09
+Iberia,ORD,DEN,6,44.0,0.09
+Aer Lingus,ORD,DEN,6,0.0,0.09
+Korean Air,ORD,ATL,6,0.0,0.09
+Aeromexico,ORD,ATL,6,16.0,0.09
+WestJet,ORD,MSP,6,0.0,0.09
+Virgin Atlantic,ORD,MSP,6,0.0,0.09
+Aeromexico,ORD,MSP,6,90.0,0.09
+Air New Zealand,ORD,IAH,6,0.0,0.09
+Emirates,ORD,IAH,6,0.0,0.09
+Ethiopian Airlines,ORD,IAD,6,38.0,0.09
+Air Canada,ORD,IAD,6,105.0,0.09
+Qantas,ORD,SFO,6,0.0,0.09
+Aer Lingus,ORD,SFO,6,0.0,0.09
+Frontier,ORD,MLM,6,0.0,0.09
+Air New Zealand,ORD,BWI,6,0.0,0.09
+Qatar Airways,ORD,SAN,6,0.0,0.09
+Virgin Australia,ORD,SFO,6,0.0,0.09
+Air New Zealand,ORD,SFO,6,0.0,0.09
+Air Canada,ORD,SFO,6,0.0,0.09
+Aer Lingus,ORD,MIA,6,0.0,0.09
+AlphaSky,ORD,MIA,6,109.0,0.09
+Air New Zealand,ORD,BOS,6,0.0,0.09
+FedEx,BOM,CDG,11,64.0,0.16
+Iberia,BOG,CLO,6,73.0,0.04
+Viva,BOG,SMR,6,0.0,0.04
+Iberia,BOG,SMR,6,0.0,0.04
+GOL,BOG,SMR,6,63.0,0.04
+Oyonnair,BOD,NTE,12,0.0,0.12
+Air New Zealand,BNE,SYD,16,0.0,0.1
+Emirates,BNE,SYD,16,0.0,0.1
+IndiGo,BNE,SYD,16,0.0,0.1
+Singapore Airlines,BNE,MEL,15,0.0,0.13
+Air Niugini,BNE,MEL,15,0.0,0.13
+China Eastern Airlines,BNE,MEL,15,71.0,0.5
+QantasLink,BNE,MOV,14,0.0,0.14
+QantasLink,BNE,BDB,14,0.0,0.14
+QantasLink,BNE,ROK,14,65.0,0.14
+Labcorp,BHM,PDK,0,0.0,0.07
+Smartwings,BUD,ZTH,12,0.0,0.07
+Hungary Airlines,BUD,LGG,7,0.0,0.08
+Labcorp,BTR,BHM,0,0.0,0.14
+American Airlines,AMS,LHR,7,0.0,0.13
+Turkish Airlines,AKL,MEL,19,0.0,0.05
+Thai Airways,AKL,MEL,19,68.0,0.05
+Singapore Airlines,AKL,MEL,19,61.0,0.05
+Etihad Airways,AKL,MEL,19,0.0,0.5
+Air China,AKL,MEL,19,109.0,0.05
+Qantas,AKL,SCL,19,0.0,0.05
+Japan Airlines,AKL,SCL,19,85.0,0.05
+China Southern Airlines,SYD,ADL,16,0.0,0.11
+Singapore Airlines,BNE,ADL,15,0.0,0.13
+Qatar Airways,BNE,ADL,15,0.0,0.13
+Qantas,ADL,DPS,18,46.0,0.09
+KLM,ADL,DPS,18,0.0,0.09
+IndiGo,ADL,DPS,18,0.0,0.09
+Singapore Airlines,ADL,MEL,18,0.0,0.09
+Qatar Airways,ADL,MEL,18,0.0,0.09
+Emirates,ADL,CBR,18,0.0,0.09
+Air New Zealand,ADL,CBR,18,0.0,0.09
+China Southern Airlines,ADL,MEL,18,0.0,0.09
+United Airlines,JNB,WVB,10,0.0,0.12
+Qatar Airways,JNB,WVB,10,0.0,0.12
+Qantas,JNB,WVB,10,80.0,0.12
+Swiss,JNB,WVB,10,0.0,0.12
+Lufthansa,JNB,WVB,10,0.0,0.12
+KLM,JNB,WVB,10,0.0,0.12
+Emirates,JNB,WVB,10,0.0,0.12
+British Airways,JNB,WVB,10,37.0,0.12
+Hebei Airlines,JJN,NKG,18,106.0,0.1
+Eurowings,PRG,VAR,7,0.0,0.09
+QantasLink,PHE,PER,17,0.0,0.19
+Air New Zealand,PER,SYD,16,0.0,0.08
+Oman Air,PER,BKK,16,58.0,0.08
+QantasLink,PER,PHE,14,0.0,0.07
+easyJet,CDG,NTE,6,86.0,0.13
+Jetstar,OKA,NRT,13,1.0,0.14
+Hebridean Air Services,OBN,COL,8,109.0,0.23
+Skybus,NQY,ISC,11,0.0,0.23
+Ryanair,NQY,FAO,10,44.0,0.21
+Skybus,NQY,ISC,9,0.0,0.18
+Etihad Airways,NKG,PKX,14,0.0,0.2
+Xiamen Air,NKG,PKX,14,101.0,0.2
+China United Airlines,NKG,PKX,14,0.0,0.2
+China Southern Airlines,NKG,PKX,14,0.0,0.2
+Shandong Airlines,NKG,CGQ,14,0.0,0.2
+Air China,NKG,CGQ,14,0.0,0.2
+Xiamen Air,NKG,SZX,14,0.0,0.2
+China Eastern Airlines,NGB,XMN,17,0.0,0.14
+China Express Airlines,NGB,XMN,17,0.0,0.14
+Xiamen Air,NGB,CAN,17,0.0,0.14
+Shenzhen Airlines,NGB,TAO,16,0.0,0.13
+Tibet Airlines,NGB,TAO,16,0.0,0.13
+Lufthansa City,BER,MUC,7,0.0,0.08
+Turkish Airlines,MSU,JNB,11,0.0,0.05
+Qatar Airways,MSU,JNB,11,0.0,0.05
+Emirates,MSU,JNB,11,0.0,0.05
+Air France,MSU,JNB,11,0.0,0.05
+United Airlines,MXP,ZRH,10,0.0,0.04
+Alitalia,MXP,ZRH,10,0.0,0.04
+Air Canada,MXP,ZRH,10,0.0,0.04
+American Airlines,ROA,MLI,0,44.0,0.06
+FedEx,MEM,ORD,3,0.0,0.01
+Thai Airways,IST,AMS,7,0.0,0.17
+Pakistan International Airlines,IST,AMS,7,0.0,0.17
+Gulf Air,IST,AMS,7,0.0,0.17
+Icelandair,IST,AMS,7,0.0,0.17
+IndiGo,IST,AMS,7,0.0,0.17
+RwandAir,IST,CDG,7,0.0,0.17
+United Airlines,IST,CDG,7,0.0,0.17
+Pakistan International Airlines,IST,CDG,7,0.0,0.17
+Air Zeta,CAN,ICN,10,0.0,0.08
+Japan Airlines,OBO,HND,13,0.0,0.04
+Japan Airlines,TAK,HND,13,80.0,0.03
+Hokkaido Air System,OKD,HKD,12,0.0,0.12
+Japan Airlines,HND,SHA,14,30.0,0.03
+Shanghai Airlines,HND,SHA,14,0.0,0.03
+Japan Airlines,HND,NGS,13,0.0,0.04
+China Eastern Airlines,LZY,TFU,10,0.0,0.07
+Xiamen Air,LZY,TFU,10,0.0,0.07
+Juneyao Air,LZY,TFU,10,0.0,0.07
+China Express Airlines,LZY,TFU,10,0.0,0.07
+Chengdu Airlines,LZY,TFU,10,0.0,0.07
+Hunnu Air,MXV,UBN,11,8.0,0.2
+Xiamen Air,NKG,LHW,14,0.0,0.2
+FlyArystan,NQZ,URA,10,54.0,0.26
+ULS Airlines Cargo,ALG,ZRH,3,0.0,0.06
+Beijing Airlines,JUZ,PKX,12,87.0,0.2
+Xiamen Air,PKX,HGH,13,19.0,0.09
+China United Airlines,PKX,HGH,13,0.0,0.09
+China Southern Airlines,PKX,HGH,13,0.0,0.09
+Cathay Pacific,PKX,HKG,13,0.0,0.5
+China Eastern Airlines,PKX,SZX,13,85.0,0.09
+Lufthansa,PKX,FRA,13,0.0,0.09
+Sichuan Airlines,PKX,CSX,13,0.0,0.09
+KLM,PKX,HGH,13,0.0,0.09
+China Southern Airlines,PKX,HGH,13,18.0,0.09
+Juneyao Air,YIN,SHA,17,61.0,0.06
+Shenzhen Airlines,PEK,XNN,15,0.0,0.02
+Shenzhen Airlines,XNN,PEK,18,34.0,0.09
+Shenzhen Airlines,XNN,CTU,18,51.0,0.09
+Shandong Airlines,XNN,CTU,18,55.0,0.09
+Kunming Airlines,XNN,CTU,18,0.0,0.09
+Loong Air,XNN,CTU,18,104.0,0.09
+Chengdu Airlines,XNN,CTU,18,0.0,0.09
+Hainan Airlines,XUZ,SHE,18,0.0,0.06
+Tibet Airlines,XUZ,SHE,18,17.0,0.06
+China Southern Airlines,XUZ,SHE,18,96.0,0.06
+Xiamen Air,XMN,KMG,14,0.0,0.18
+Sichuan Airlines,XMN,KMG,14,0.0,0.18
+Juneyao Air,XMN,SHA,14,90.0,0.18
+Xiamen Air,XMN,SHA,14,70.0,0.18
+Bangkok Airways,XMN,BKK,14,20.0,0.18
+Tibet Airlines,XMN,CTU,13,15.0,0.2
+China Eastern Airlines,XMN,CTU,13,0.0,0.2
+Loong Air,XMN,CTU,13,61.0,0.2
+Sichuan Airlines,XIY,HRB,13,0.0,0.04
+China Southern Airlines,XIY,XMN,13,0.0,0.04
+Hebei Airlines,XIY,XMN,13,0.0,0.04
+Sichuan Airlines,HSN,KHN,19,0.0,0.29
+China Express Airlines,HSN,KHN,19,0.0,0.29
+Qingdao Airlines,HSN,KHN,19,0.0,0.29
+Xiamen Air,HSN,KHN,19,0.0,0.29
+Loong Air,HSN,KHN,19,0.0,0.5
+China Southern Airlines,HSN,KHN,19,103.0,0.29
+Transavia,HRG,ORY,14,0.0,0.28
+Corendon Airlines,HRG,DUS,13,0.0,0.29
+Air Cairo,HRG,CAI,13,0.0,0.29
+Air Cairo,HRG,CAI,13,0.0,0.29
+Ethiopian Airlines,HRE,LLW,13,0.0,0.09
+Ethiopian Airlines,HRE,LUN,13,0.0,0.09
+flynas,HRE,LUN,13,45.0,0.09
+Etihad Airways,HRE,LUN,13,0.0,0.09
+Air India,HRE,LUN,13,0.0,0.09
+Airlink,HRE,JNB,13,0.0,0.09
+United Airlines,HRE,JNB,13,0.0,0.09
+Turkish Airlines,HRE,JNB,13,0.0,0.09
+Qatar Airways,HRE,JNB,13,0.0,0.09
+Qantas,HRE,JNB,13,0.0,0.09
+Emirates,HRE,JNB,13,114.0,0.09
+British Airways,HRE,JNB,13,85.0,0.09
+Air France,HRE,JNB,13,0.0,0.09
+Airlink,HRE,DUR,13,0.0,0.09
+Emirates,HRE,DUR,13,0.0,0.09
+Air Tanzania,HRE,LUN,13,0.0,0.09
+Spring Airlines,HRB,HET,20,0.0,0.14
+China Southern Airlines,HRB,PVG,20,0.0,0.14
+China Southern Airlines,HRB,PKX,20,0.0,0.14
+Shandong Airlines,HRB,TAO,19,0.0,0.12
+Spring Airlines,HRB,PVG,19,0.0,0.12
+Hainan Airlines,HRB,SZX,19,0.0,0.12
+Air China,HRB,TFU,19,0.0,0.12
+West Air,HRB,TAO,19,0.0,0.12
+China Eastern Airlines,HRB,NKG,19,0.0,0.5
+Chengdu Airlines,HRB,CTU,19,93.0,0.12
+China Eastern Airlines,HRB,SHA,19,0.0,0.12
+China Eastern Airlines,HRB,PVG,19,0.0,0.12
+NetJets,HPN,GHB,8,0.0,0.18
+NetJets,HPN,UGN,8,0.0,0.18
+Breeze Airways,HPN,CHS,8,45.0,0.18
+JetBlue,HPN,SJU,8,0.0,0.18
+American Airlines,HPN,CLT,7,0.0,0.17
+Tradewind Aviation,HPN,ACK,7,0.0,0.17
+NetJets,HPN,FXE,7,33.0,0.17
+NetJets,HPN,ACK,7,117.0,0.17
+JetBlue,HPN,TPA,7,0.0,0.17
+Aegean Airlines,ATH,RHO,8,0.0,0.32
+Iberia,MAD,VLC,6,0.0,0.03
+AVA Airlines,IST,IKA,8,27.0,0.18
+Fly Kish,IST,IKA,8,0.0,0.18
+CSA Air,IND,SBN,4,15.0,0.06
+Loong Air,INC,CSX,17,0.0,0.15
+China Southern Airlines,INC,CSX,17,0.0,0.15
+Hebei Airlines,INC,CSX,17,54.0,0.15
+Sichuan Airlines,INC,CSX,17,19.0,0.15
+China Express Airlines,INC,CSX,17,0.0,0.15
+Xiamen Air,INC,CSX,17,0.0,0.15
+Hainan Airlines,INC,CSX,17,0.0,0.15
+IndiGo,IXR,DEL,17,0.0,0.12
+Virgin Atlantic,IXR,DEL,17,0.0,0.12
+IndiGo,IXM,BLR,17,113.0,0.04
+IndiGo,IXM,HYD,17,0.0,0.04
+IndiGo,IXC,DXB,17,45.0,0.09
+IndiGo,IXC,BOM,17,47.0,0.09
+Virgin Atlantic,IXC,BOM,17,0.0,0.09
+British Airways,IXC,BOM,17,43.0,0.09
+Air France,IXC,BOM,17,0.0,0.09
+IndiGo,IXC,BLR,16,0.0,0.08
+Virgin Atlantic,IXC,BLR,16,0.0,0.08
+Qantas,IXC,BLR,16,0.0,0.08
+Japan Airlines,IXC,BLR,16,0.0,0.08
+IndiGo,IXB,DEL,17,0.0,0.06
+Virgin Atlantic,IXB,DEL,17,0.0,0.06
+British Airways,IXB,DEL,17,0.0,0.06
+Drukair,IXB,BKK,17,0.0,0.06
+Air India Express,IXB,BLR,17,0.0,0.06
+Air India,IXB,BLR,17,0.0,0.06
+Air India Express,IXB,CCU,17,107.0,0.06
+Air India,IXB,CCU,17,30.0,0.06
+Akasa Air,IXB,DEL,16,0.0,0.08
+Air India Express,IXA,CCU,16,0.0,0.11
+Air India,IXA,CCU,16,0.0,0.11
+All Nippon Airways,ITM,HND,20,0.0,0.11
+Virgin Australia,ITM,HND,20,0.0,0.11
+Philippine Airlines,ITM,HND,20,62.0,0.11
+All Nippon Airways,ITM,MYJ,20,73.0,0.11
+All Nippon Airways,ITM,FUK,20,0.0,0.11
+Asiana Airlines,TAO,ICN,18,44.0,0.07
+Air China,TAO,ICN,18,118.0,0.07
+Korean Air,PVG,ICN,17,47.0,0.22
+Shanghai Airlines,PVG,ICN,17,0.0,0.22
+United States - Coast Guard,OTP,BCM,9,0.0,0.09
+Transavia,ORY,VIE,10,0.0,0.11
+Transavia,ORY,IST,10,32.0,0.11
+Azores Airlines,ORY,LIS,10,0.0,0.11
+LATAM Airlines,ORY,LIS,10,0.0,0.11
+Azul,ORY,LIS,10,0.0,0.11
+Air New Zealand,ORD,ROC,6,0.0,0.09
+Air Canada,ORD,ROC,6,0.0,0.09
+Air New Zealand,ORD,ORF,6,0.0,0.09
+Air Canada,ORD,ORF,6,0.0,0.09
+Air New Zealand,ORD,ROA,6,0.0,0.09
+Air New Zealand,ORD,CLT,6,0.0,0.09
+Air Canada,ORD,CLT,6,0.0,0.09
+Aer Lingus,ORD,BNA,6,0.0,0.09
+AlphaSky,ORD,BNA,6,0.0,0.09
+Japan Airlines,ORD,SAN,6,0.0,0.09
+Aer Lingus,ORD,SAN,6,0.0,0.09
+British Airways,ORD,SAN,6,0.0,0.09
+Aer Lingus,ORD,CLE,6,0.0,0.09
+British Airways,ORD,CLE,6,0.0,0.09
+AlphaSky,ORD,CLE,6,0.0,0.09
+AlphaSky,ORD,BUF,6,116.0,0.09
+Aer Lingus,ORD,MKE,6,120.0,0.09
+AlphaSky,ORD,MKE,6,91.0,0.09
+British Airways,ORD,MSN,6,0.0,0.09
+AlphaSky,ORD,MSN,6,84.0,0.09
+Iberia,ORD,DEN,6,0.0,0.09
+Aer Lingus,ORD,DEN,6,0.0,0.09
+Korean Air,ORD,ATL,6,47.0,0.09
+Aeromexico,ORD,ATL,6,39.0,0.09
+WestJet,ORD,MSP,6,19.0,0.09
+Virgin Atlantic,ORD,MSP,6,114.0,0.09
+Aeromexico,ORD,MSP,6,0.0,0.09
+Air New Zealand,ORD,IAH,6,0.0,0.09
+Emirates,ORD,IAH,6,25.0,0.09
+Ethiopian Airlines,ORD,IAD,6,0.0,0.09
+Air Canada,ORD,IAD,6,0.0,0.09
+Qantas,ORD,SFO,6,0.0,0.09
+Aer Lingus,ORD,SFO,6,0.0,0.09
+Frontier,ORD,MLM,6,0.0,0.09
+Air New Zealand,ORD,BWI,6,0.0,0.09
+Qatar Airways,ORD,SAN,6,0.0,0.09
+Virgin Australia,ORD,SFO,6,16.0,0.09
+Air New Zealand,ORD,SFO,6,0.0,0.09
+Air Canada,ORD,SFO,6,72.0,0.09
+Aer Lingus,ORD,MIA,6,0.0,0.09
+AlphaSky,ORD,MIA,6,0.0,0.09
+Air New Zealand,ORD,BOS,6,35.0,0.09

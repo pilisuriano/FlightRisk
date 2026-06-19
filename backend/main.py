@@ -49,12 +49,17 @@ def evaluar_vuelo(vuelo: VueloConsulta):
 @app.get("/api/recomendaciones")
 def obtener_recomendaciones(origen: str, destino: str):
     try:
-        df = pd.read_csv("backend/flights_dataset.csv")
-        alternativas = df[
+        df = pd.read_csv("backend/flights_dataset_final.csv", sep=';')
+
+        candidatos = df[
             (df['origin_airport'] == origen) & 
-            (df['destination_airport'] == destino) & 
-            (df['Stress_Level'] == 'Low')
-        ]
-        return alternativas.to_dict(orient="records")
+            (df['destination_airport'] == destino)
+        ].copy()
+
+        # orden por riesgo (o score)
+        candidatos = candidatos.sort_values("stress_score", ascending=True)
+
+        return candidatos.head(10).to_dict(orient="records")
+
     except Exception as e:
-        return {"error": f"Hubo un problema al buscar recomendaciones: {str(e)}"}
+        return {"error": str(e)}

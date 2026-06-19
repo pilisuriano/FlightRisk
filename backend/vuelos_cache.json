@@ -2478,5 +2478,2645 @@
     "departure_hour": 18,
     "avg_delay_minutes": 0.0,
     "fecha_completa_iso": "2026-06-19T18:25:00+00:00"
+  },
+  {
+    "airline": "United Airlines",
+    "origin_airport": "JNB",
+    "destination_airport": "WVB",
+    "departure_hour": 10,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T10:20:00+00:00"
+  },
+  {
+    "airline": "Qatar Airways",
+    "origin_airport": "JNB",
+    "destination_airport": "WVB",
+    "departure_hour": 10,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T10:20:00+00:00"
+  },
+  {
+    "airline": "Qantas",
+    "origin_airport": "JNB",
+    "destination_airport": "WVB",
+    "departure_hour": 10,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T10:20:00+00:00"
+  },
+  {
+    "airline": "Swiss",
+    "origin_airport": "JNB",
+    "destination_airport": "WVB",
+    "departure_hour": 10,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T10:20:00+00:00"
+  },
+  {
+    "airline": "Lufthansa",
+    "origin_airport": "JNB",
+    "destination_airport": "WVB",
+    "departure_hour": 10,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T10:20:00+00:00"
+  },
+  {
+    "airline": "KLM",
+    "origin_airport": "JNB",
+    "destination_airport": "WVB",
+    "departure_hour": 10,
+    "avg_delay_minutes": 57.0,
+    "fecha_completa_iso": "2026-06-19T10:20:00+00:00"
+  },
+  {
+    "airline": "Emirates",
+    "origin_airport": "JNB",
+    "destination_airport": "WVB",
+    "departure_hour": 10,
+    "avg_delay_minutes": 22.0,
+    "fecha_completa_iso": "2026-06-19T10:20:00+00:00"
+  },
+  {
+    "airline": "British Airways",
+    "origin_airport": "JNB",
+    "destination_airport": "WVB",
+    "departure_hour": 10,
+    "avg_delay_minutes": 74.0,
+    "fecha_completa_iso": "2026-06-19T10:20:00+00:00"
+  },
+  {
+    "airline": "Hebei Airlines",
+    "origin_airport": "JJN",
+    "destination_airport": "NKG",
+    "departure_hour": 18,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T18:20:00+00:00"
+  },
+  {
+    "airline": "Sichuan Airlines",
+    "origin_airport": "JJN",
+    "destination_airport": "NKG",
+    "departure_hour": 18,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T18:20:00+00:00"
+  },
+  {
+    "airline": "China Eastern Airlines",
+    "origin_airport": "JJN",
+    "destination_airport": "NKG",
+    "departure_hour": 18,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T18:20:00+00:00"
+  },
+  {
+    "airline": "China Express Airlines",
+    "origin_airport": "JJN",
+    "destination_airport": "NKG",
+    "departure_hour": 18,
+    "avg_delay_minutes": 100.0,
+    "fecha_completa_iso": "2026-06-19T18:20:00+00:00"
+  },
+  {
+    "airline": "Shandong Airlines",
+    "origin_airport": "JJN",
+    "destination_airport": "TFU",
+    "departure_hour": 17,
+    "avg_delay_minutes": 47.0,
+    "fecha_completa_iso": "2026-06-19T17:55:00+00:00"
+  },
+  {
+    "airline": "Air China",
+    "origin_airport": "JJN",
+    "destination_airport": "TFU",
+    "departure_hour": 17,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T17:55:00+00:00"
+  },
+  {
+    "airline": "Ethiopian Airlines",
+    "origin_airport": "JIJ",
+    "destination_airport": "ADD",
+    "departure_hour": 13,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T13:35:00+00:00"
+  },
+  {
+    "airline": "Ethiopian Airlines",
+    "origin_airport": "JIJ",
+    "destination_airport": "GDE",
+    "departure_hour": 8,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T08:25:00+00:00"
+  },
+  {
+    "airline": "Shandong Airlines",
+    "origin_airport": "SZX",
+    "destination_airport": "INC",
+    "departure_hour": 14,
+    "avg_delay_minutes": 70.0,
+    "fecha_completa_iso": "2026-06-19T14:50:00+00:00"
+  },
+  {
+    "airline": "Juneyao Air",
+    "origin_airport": "SZX",
+    "destination_airport": "INC",
+    "departure_hour": 14,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T14:50:00+00:00"
+  },
+  {
+    "airline": "Air China",
+    "origin_airport": "SZX",
+    "destination_airport": "INC",
+    "departure_hour": 14,
+    "avg_delay_minutes": 100.0,
+    "fecha_completa_iso": "2026-06-19T14:50:00+00:00"
+  },
+  {
+    "airline": "Tibet Airlines",
+    "origin_airport": "INC",
+    "destination_airport": "CSX",
+    "departure_hour": 17,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T17:45:00+00:00"
+  },
+  {
+    "airline": "China Southern Airlines",
+    "origin_airport": "INC",
+    "destination_airport": "CSX",
+    "departure_hour": 17,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T17:45:00+00:00"
+  },
+  {
+    "airline": "China Express Airlines",
+    "origin_airport": "INC",
+    "destination_airport": "CSX",
+    "departure_hour": 17,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T17:45:00+00:00"
+  },
+  {
+    "airline": "China Eastern Airlines",
+    "origin_airport": "INC",
+    "destination_airport": "CSX",
+    "departure_hour": 17,
+    "avg_delay_minutes": 41.0,
+    "fecha_completa_iso": "2026-06-19T17:45:00+00:00"
+  },
+  {
+    "airline": "Sichuan Airlines",
+    "origin_airport": "INC",
+    "destination_airport": "CSX",
+    "departure_hour": 17,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T17:45:00+00:00"
+  },
+  {
+    "airline": "Chengdu Airlines",
+    "origin_airport": "INC",
+    "destination_airport": "CSX",
+    "departure_hour": 17,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T17:45:00+00:00"
+  },
+  {
+    "airline": "Xiamen Air",
+    "origin_airport": "INC",
+    "destination_airport": "TAO",
+    "departure_hour": 17,
+    "avg_delay_minutes": 59.0,
+    "fecha_completa_iso": "2026-06-19T17:40:00+00:00"
+  },
+  {
+    "airline": "Shenzhen Airlines",
+    "origin_airport": "INC",
+    "destination_airport": "PEK",
+    "departure_hour": 17,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T17:30:00+00:00"
+  },
+  {
+    "airline": "Shandong Airlines",
+    "origin_airport": "INC",
+    "destination_airport": "PEK",
+    "departure_hour": 17,
+    "avg_delay_minutes": 94.0,
+    "fecha_completa_iso": "2026-06-19T17:30:00+00:00"
+  },
+  {
+    "airline": "American Airlines",
+    "origin_airport": "ILM",
+    "destination_airport": "CAE",
+    "departure_hour": 0,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T00:45:00+00:00"
+  },
+  {
+    "airline": "Iberia",
+    "origin_airport": "GRX",
+    "destination_airport": "MAD",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:30:00+00:00"
+  },
+  {
+    "airline": "Shenzhen Airlines",
+    "origin_airport": "DLC",
+    "destination_airport": "TAO",
+    "departure_hour": 18,
+    "avg_delay_minutes": 90.0,
+    "fecha_completa_iso": "2026-06-19T18:20:00+00:00"
+  },
+  {
+    "airline": "Tibet Airlines",
+    "origin_airport": "DLC",
+    "destination_airport": "TAO",
+    "departure_hour": 18,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T18:20:00+00:00"
+  },
+  {
+    "airline": "China Express Airlines",
+    "origin_airport": "DLC",
+    "destination_airport": "TAO",
+    "departure_hour": 18,
+    "avg_delay_minutes": 33.0,
+    "fecha_completa_iso": "2026-06-19T18:20:00+00:00"
+  },
+  {
+    "airline": "Air China",
+    "origin_airport": "DLC",
+    "destination_airport": "TAO",
+    "departure_hour": 18,
+    "avg_delay_minutes": 59.0,
+    "fecha_completa_iso": "2026-06-19T18:20:00+00:00"
+  },
+  {
+    "airline": "Sichuan Airlines",
+    "origin_airport": "DLC",
+    "destination_airport": "XIY",
+    "departure_hour": 17,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T17:35:00+00:00"
+  },
+  {
+    "airline": "Shenzhen Airlines",
+    "origin_airport": "DLC",
+    "destination_airport": "PVG",
+    "departure_hour": 17,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T17:15:00+00:00"
+  },
+  {
+    "airline": "China Eastern Airlines",
+    "origin_airport": "DLC",
+    "destination_airport": "PVG",
+    "departure_hour": 17,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T17:15:00+00:00"
+  },
+  {
+    "airline": "Xiamen Air",
+    "origin_airport": "DLC",
+    "destination_airport": "PVG",
+    "departure_hour": 17,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T17:15:00+00:00"
+  },
+  {
+    "airline": "China Southern Airlines",
+    "origin_airport": "DLC",
+    "destination_airport": "PVG",
+    "departure_hour": 17,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T17:15:00+00:00"
+  },
+  {
+    "airline": "Sichuan Airlines",
+    "origin_airport": "DLC",
+    "destination_airport": "PVG",
+    "departure_hour": 17,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T17:15:00+00:00"
+  },
+  {
+    "airline": "Loong Air",
+    "origin_airport": "DLC",
+    "destination_airport": "CGO",
+    "departure_hour": 17,
+    "avg_delay_minutes": 44.0,
+    "fecha_completa_iso": "2026-06-19T17:05:00+00:00"
+  },
+  {
+    "airline": "Tibet Airlines",
+    "origin_airport": "DLC",
+    "destination_airport": "TNA",
+    "departure_hour": 16,
+    "avg_delay_minutes": 116.0,
+    "fecha_completa_iso": "2026-06-19T16:55:00+00:00"
+  },
+  {
+    "airline": "China Express Airlines",
+    "origin_airport": "DLC",
+    "destination_airport": "TNA",
+    "departure_hour": 16,
+    "avg_delay_minutes": 38.0,
+    "fecha_completa_iso": "2026-06-19T16:55:00+00:00"
+  },
+  {
+    "airline": "Air China",
+    "origin_airport": "DLC",
+    "destination_airport": "TNA",
+    "departure_hour": 16,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T16:55:00+00:00"
+  },
+  {
+    "airline": "Shenzhen Airlines",
+    "origin_airport": "DLC",
+    "destination_airport": "TNA",
+    "departure_hour": 16,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T16:55:00+00:00"
+  },
+  {
+    "airline": "FedEx",
+    "origin_airport": "AFW",
+    "destination_airport": "DEN",
+    "departure_hour": 3,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T03:42:00+00:00"
+  },
+  {
+    "airline": "Vietnam Airlines",
+    "origin_airport": "DEL",
+    "destination_airport": "LHR",
+    "departure_hour": 11,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T11:10:00+00:00"
+  },
+  {
+    "airline": "Malawi Airlines",
+    "origin_airport": "DAR",
+    "destination_airport": "BLZ",
+    "departure_hour": 7,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T07:40:00+00:00"
+  },
+  {
+    "airline": "Eurowings",
+    "origin_airport": "PRG",
+    "destination_airport": "VAR",
+    "departure_hour": 7,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T07:00:00+00:00"
+  },
+  {
+    "airline": "QantasLink",
+    "origin_airport": "PHE",
+    "destination_airport": "PER",
+    "departure_hour": 17,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T17:00:00+00:00"
+  },
+  {
+    "airline": "Air New Zealand",
+    "origin_airport": "PER",
+    "destination_airport": "SYD",
+    "departure_hour": 16,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T16:25:00+00:00"
+  },
+  {
+    "airline": "Oman Air",
+    "origin_airport": "PER",
+    "destination_airport": "BKK",
+    "departure_hour": 16,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T16:20:00+00:00"
+  },
+  {
+    "airline": "QantasLink",
+    "origin_airport": "PER",
+    "destination_airport": "PHE",
+    "departure_hour": 14,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T14:05:00+00:00"
+  },
+  {
+    "airline": "easyJet",
+    "origin_airport": "CDG",
+    "destination_airport": "NTE",
+    "departure_hour": 6,
+    "avg_delay_minutes": 115.0,
+    "fecha_completa_iso": "2026-06-19T06:00:00+00:00"
+  },
+  {
+    "airline": "Jetstar",
+    "origin_airport": "OKA",
+    "destination_airport": "NRT",
+    "departure_hour": 13,
+    "avg_delay_minutes": 1.0,
+    "fecha_completa_iso": "2026-06-19T13:15:00+00:00"
+  },
+  {
+    "airline": "Hebridean Air Services",
+    "origin_airport": "OBN",
+    "destination_airport": "COL",
+    "departure_hour": 8,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T08:40:00+00:00"
+  },
+  {
+    "airline": "Skybus",
+    "origin_airport": "NQY",
+    "destination_airport": "ISC",
+    "departure_hour": 11,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T11:50:00+00:00"
+  },
+  {
+    "airline": "Ryanair",
+    "origin_airport": "NQY",
+    "destination_airport": "FAO",
+    "departure_hour": 10,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T10:10:00+00:00"
+  },
+  {
+    "airline": "Skybus",
+    "origin_airport": "NQY",
+    "destination_airport": "ISC",
+    "departure_hour": 9,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T09:55:00+00:00"
+  },
+  {
+    "airline": "Etihad Airways",
+    "origin_airport": "NKG",
+    "destination_airport": "PKX",
+    "departure_hour": 14,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T14:30:00+00:00"
+  },
+  {
+    "airline": "Xiamen Air",
+    "origin_airport": "NKG",
+    "destination_airport": "PKX",
+    "departure_hour": 14,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T14:30:00+00:00"
+  },
+  {
+    "airline": "China United Airlines",
+    "origin_airport": "NKG",
+    "destination_airport": "PKX",
+    "departure_hour": 14,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T14:30:00+00:00"
+  },
+  {
+    "airline": "China Southern Airlines",
+    "origin_airport": "NKG",
+    "destination_airport": "PKX",
+    "departure_hour": 14,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T14:30:00+00:00"
+  },
+  {
+    "airline": "Shandong Airlines",
+    "origin_airport": "NKG",
+    "destination_airport": "CGQ",
+    "departure_hour": 14,
+    "avg_delay_minutes": 90.0,
+    "fecha_completa_iso": "2026-06-19T14:20:00+00:00"
+  },
+  {
+    "airline": "Air China",
+    "origin_airport": "NKG",
+    "destination_airport": "CGQ",
+    "departure_hour": 14,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T14:20:00+00:00"
+  },
+  {
+    "airline": "Xiamen Air",
+    "origin_airport": "NKG",
+    "destination_airport": "SZX",
+    "departure_hour": 14,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T14:20:00+00:00"
+  },
+  {
+    "airline": "China Eastern Airlines",
+    "origin_airport": "NGB",
+    "destination_airport": "XMN",
+    "departure_hour": 17,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T17:10:00+00:00"
+  },
+  {
+    "airline": "China Express Airlines",
+    "origin_airport": "NGB",
+    "destination_airport": "XMN",
+    "departure_hour": 17,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T17:10:00+00:00"
+  },
+  {
+    "airline": "Xiamen Air",
+    "origin_airport": "NGB",
+    "destination_airport": "CAN",
+    "departure_hour": 17,
+    "avg_delay_minutes": 101.0,
+    "fecha_completa_iso": "2026-06-19T17:05:00+00:00"
+  },
+  {
+    "airline": "Shenzhen Airlines",
+    "origin_airport": "NGB",
+    "destination_airport": "TAO",
+    "departure_hour": 16,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T16:55:00+00:00"
+  },
+  {
+    "airline": "Tibet Airlines",
+    "origin_airport": "NGB",
+    "destination_airport": "TAO",
+    "departure_hour": 16,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T16:55:00+00:00"
+  },
+  {
+    "airline": "Lufthansa City",
+    "origin_airport": "BER",
+    "destination_airport": "MUC",
+    "departure_hour": 7,
+    "avg_delay_minutes": 76.0,
+    "fecha_completa_iso": "2026-06-19T07:15:00+00:00"
+  },
+  {
+    "airline": "Turkish Airlines",
+    "origin_airport": "MSU",
+    "destination_airport": "JNB",
+    "departure_hour": 11,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T11:15:00+00:00"
+  },
+  {
+    "airline": "Qatar Airways",
+    "origin_airport": "MSU",
+    "destination_airport": "JNB",
+    "departure_hour": 11,
+    "avg_delay_minutes": 99.0,
+    "fecha_completa_iso": "2026-06-19T11:15:00+00:00"
+  },
+  {
+    "airline": "Emirates",
+    "origin_airport": "MSU",
+    "destination_airport": "JNB",
+    "departure_hour": 11,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T11:15:00+00:00"
+  },
+  {
+    "airline": "Air France",
+    "origin_airport": "MSU",
+    "destination_airport": "JNB",
+    "departure_hour": 11,
+    "avg_delay_minutes": 67.0,
+    "fecha_completa_iso": "2026-06-19T11:15:00+00:00"
+  },
+  {
+    "airline": "United Airlines",
+    "origin_airport": "MXP",
+    "destination_airport": "ZRH",
+    "departure_hour": 10,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T10:40:00+00:00"
+  },
+  {
+    "airline": "Alitalia",
+    "origin_airport": "MXP",
+    "destination_airport": "ZRH",
+    "departure_hour": 10,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T10:40:00+00:00"
+  },
+  {
+    "airline": "Air Canada",
+    "origin_airport": "MXP",
+    "destination_airport": "ZRH",
+    "departure_hour": 10,
+    "avg_delay_minutes": 26.0,
+    "fecha_completa_iso": "2026-06-19T10:40:00+00:00"
+  },
+  {
+    "airline": "American Airlines",
+    "origin_airport": "ROA",
+    "destination_airport": "MLI",
+    "departure_hour": 0,
+    "avg_delay_minutes": 105.0,
+    "fecha_completa_iso": "2026-06-19T00:45:00+00:00"
+  },
+  {
+    "airline": "FedEx",
+    "origin_airport": "MEM",
+    "destination_airport": "ORD",
+    "departure_hour": 3,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T03:53:00+00:00"
+  },
+  {
+    "airline": "Thai Airways",
+    "origin_airport": "IST",
+    "destination_airport": "AMS",
+    "departure_hour": 7,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T07:15:00+00:00"
+  },
+  {
+    "airline": "Pakistan International Airlines",
+    "origin_airport": "IST",
+    "destination_airport": "AMS",
+    "departure_hour": 7,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T07:15:00+00:00"
+  },
+  {
+    "airline": "Gulf Air",
+    "origin_airport": "IST",
+    "destination_airport": "AMS",
+    "departure_hour": 7,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T07:15:00+00:00"
+  },
+  {
+    "airline": "Icelandair",
+    "origin_airport": "IST",
+    "destination_airport": "AMS",
+    "departure_hour": 7,
+    "avg_delay_minutes": 36.0,
+    "fecha_completa_iso": "2026-06-19T07:15:00+00:00"
+  },
+  {
+    "airline": "IndiGo",
+    "origin_airport": "IST",
+    "destination_airport": "AMS",
+    "departure_hour": 7,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T07:15:00+00:00"
+  },
+  {
+    "airline": "RwandAir",
+    "origin_airport": "IST",
+    "destination_airport": "CDG",
+    "departure_hour": 7,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T07:15:00+00:00"
+  },
+  {
+    "airline": "United Airlines",
+    "origin_airport": "IST",
+    "destination_airport": "CDG",
+    "departure_hour": 7,
+    "avg_delay_minutes": 106.0,
+    "fecha_completa_iso": "2026-06-19T07:15:00+00:00"
+  },
+  {
+    "airline": "Pakistan International Airlines",
+    "origin_airport": "IST",
+    "destination_airport": "CDG",
+    "departure_hour": 7,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T07:15:00+00:00"
+  },
+  {
+    "airline": "Air Zeta",
+    "origin_airport": "CAN",
+    "destination_airport": "ICN",
+    "departure_hour": 10,
+    "avg_delay_minutes": 110.0,
+    "fecha_completa_iso": "2026-06-19T10:00:00+00:00"
+  },
+  {
+    "airline": "Japan Airlines",
+    "origin_airport": "OBO",
+    "destination_airport": "HND",
+    "departure_hour": 13,
+    "avg_delay_minutes": 99.0,
+    "fecha_completa_iso": "2026-06-19T13:10:00+00:00"
+  },
+  {
+    "airline": "Japan Airlines",
+    "origin_airport": "TAK",
+    "destination_airport": "HND",
+    "departure_hour": 13,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T13:20:00+00:00"
+  },
+  {
+    "airline": "Hokkaido Air System",
+    "origin_airport": "OKD",
+    "destination_airport": "HKD",
+    "departure_hour": 12,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T12:45:00+00:00"
+  },
+  {
+    "airline": "Japan Airlines",
+    "origin_airport": "HND",
+    "destination_airport": "SHA",
+    "departure_hour": 14,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T14:30:00+00:00"
+  },
+  {
+    "airline": "Shanghai Airlines",
+    "origin_airport": "HND",
+    "destination_airport": "SHA",
+    "departure_hour": 14,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T14:30:00+00:00"
+  },
+  {
+    "airline": "Japan Airlines",
+    "origin_airport": "HND",
+    "destination_airport": "NGS",
+    "departure_hour": 13,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T13:30:00+00:00"
+  },
+  {
+    "airline": "Air China",
+    "origin_airport": "LIJ",
+    "destination_airport": "TFU",
+    "departure_hour": 10,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T10:20:00+00:00"
+  },
+  {
+    "airline": "Shenzhen Airlines",
+    "origin_airport": "LIJ",
+    "destination_airport": "TFU",
+    "departure_hour": 10,
+    "avg_delay_minutes": 51.0,
+    "fecha_completa_iso": "2026-06-19T10:20:00+00:00"
+  },
+  {
+    "airline": "Shandong Airlines",
+    "origin_airport": "LIJ",
+    "destination_airport": "TFU",
+    "departure_hour": 10,
+    "avg_delay_minutes": 111.0,
+    "fecha_completa_iso": "2026-06-19T10:20:00+00:00"
+  },
+  {
+    "airline": "Xiamen Air",
+    "origin_airport": "LIJ",
+    "destination_airport": "TFU",
+    "departure_hour": 10,
+    "avg_delay_minutes": 55.0,
+    "fecha_completa_iso": "2026-06-19T10:20:00+00:00"
+  },
+  {
+    "airline": "Sichuan Airlines",
+    "origin_airport": "LIJ",
+    "destination_airport": "TFU",
+    "departure_hour": 10,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T10:20:00+00:00"
+  },
+  {
+    "airline": "Loong Air",
+    "origin_airport": "LIJ",
+    "destination_airport": "TFU",
+    "departure_hour": 10,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T10:20:00+00:00"
+  },
+  {
+    "airline": "China Eastern Airlines",
+    "origin_airport": "LZY",
+    "destination_airport": "TFU",
+    "departure_hour": 10,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T10:55:00+00:00"
+  },
+  {
+    "airline": "Xiamen Air",
+    "origin_airport": "LZY",
+    "destination_airport": "TFU",
+    "departure_hour": 10,
+    "avg_delay_minutes": 110.0,
+    "fecha_completa_iso": "2026-06-19T10:55:00+00:00"
+  },
+  {
+    "airline": "Juneyao Air",
+    "origin_airport": "LZY",
+    "destination_airport": "TFU",
+    "departure_hour": 10,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T10:55:00+00:00"
+  },
+  {
+    "airline": "China Express Airlines",
+    "origin_airport": "LZY",
+    "destination_airport": "TFU",
+    "departure_hour": 10,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T10:55:00+00:00"
+  },
+  {
+    "airline": "Chengdu Airlines",
+    "origin_airport": "LZY",
+    "destination_airport": "TFU",
+    "departure_hour": 10,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T10:55:00+00:00"
+  },
+  {
+    "airline": "Hunnu Air",
+    "origin_airport": "MXV",
+    "destination_airport": "UBN",
+    "departure_hour": 11,
+    "avg_delay_minutes": 8.0,
+    "fecha_completa_iso": "2026-06-19T11:40:00+00:00"
+  },
+  {
+    "airline": "Xiamen Air",
+    "origin_airport": "NKG",
+    "destination_airport": "LHW",
+    "departure_hour": 14,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T14:40:00+00:00"
+  },
+  {
+    "airline": "FlyArystan",
+    "origin_airport": "NQZ",
+    "destination_airport": "URA",
+    "departure_hour": 10,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T10:30:00+00:00"
+  },
+  {
+    "airline": "ULS Airlines Cargo",
+    "origin_airport": "ALG",
+    "destination_airport": "ZRH",
+    "departure_hour": 3,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T03:45:00+00:00"
+  },
+  {
+    "airline": "Beijing Airlines",
+    "origin_airport": "JUZ",
+    "destination_airport": "PKX",
+    "departure_hour": 12,
+    "avg_delay_minutes": 102.0,
+    "fecha_completa_iso": "2026-06-19T12:00:00+00:00"
+  },
+  {
+    "airline": "Xiamen Air",
+    "origin_airport": "PKX",
+    "destination_airport": "HGH",
+    "departure_hour": 13,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T13:40:00+00:00"
+  },
+  {
+    "airline": "China United Airlines",
+    "origin_airport": "PKX",
+    "destination_airport": "HGH",
+    "departure_hour": 13,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T13:40:00+00:00"
+  },
+  {
+    "airline": "China Southern Airlines",
+    "origin_airport": "PKX",
+    "destination_airport": "HGH",
+    "departure_hour": 13,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T13:40:00+00:00"
+  },
+  {
+    "airline": "Cathay Pacific",
+    "origin_airport": "PKX",
+    "destination_airport": "HKG",
+    "departure_hour": 13,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T13:40:00+00:00"
+  },
+  {
+    "airline": "China Eastern Airlines",
+    "origin_airport": "PKX",
+    "destination_airport": "SZX",
+    "departure_hour": 13,
+    "avg_delay_minutes": 25.0,
+    "fecha_completa_iso": "2026-06-19T13:30:00+00:00"
+  },
+  {
+    "airline": "Lufthansa",
+    "origin_airport": "PKX",
+    "destination_airport": "FRA",
+    "departure_hour": 13,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T13:30:00+00:00"
+  },
+  {
+    "airline": "Sichuan Airlines",
+    "origin_airport": "PKX",
+    "destination_airport": "CSX",
+    "departure_hour": 13,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T13:25:00+00:00"
+  },
+  {
+    "airline": "KLM",
+    "origin_airport": "PKX",
+    "destination_airport": "HGH",
+    "departure_hour": 13,
+    "avg_delay_minutes": 99.0,
+    "fecha_completa_iso": "2026-06-19T13:15:00+00:00"
+  },
+  {
+    "airline": "China Southern Airlines",
+    "origin_airport": "PKX",
+    "destination_airport": "HGH",
+    "departure_hour": 13,
+    "avg_delay_minutes": 69.0,
+    "fecha_completa_iso": "2026-06-19T13:15:00+00:00"
+  },
+  {
+    "airline": "Juneyao Air",
+    "origin_airport": "YIN",
+    "destination_airport": "SHA",
+    "departure_hour": 17,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T17:20:00+00:00"
+  },
+  {
+    "airline": "Shenzhen Airlines",
+    "origin_airport": "PEK",
+    "destination_airport": "XNN",
+    "departure_hour": 15,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T15:30:00+00:00"
+  },
+  {
+    "airline": "Shenzhen Airlines",
+    "origin_airport": "XNN",
+    "destination_airport": "PEK",
+    "departure_hour": 18,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T18:45:00+00:00"
+  },
+  {
+    "airline": "Shenzhen Airlines",
+    "origin_airport": "XNN",
+    "destination_airport": "CTU",
+    "departure_hour": 18,
+    "avg_delay_minutes": 70.0,
+    "fecha_completa_iso": "2026-06-19T18:00:00+00:00"
+  },
+  {
+    "airline": "Shandong Airlines",
+    "origin_airport": "XNN",
+    "destination_airport": "CTU",
+    "departure_hour": 18,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T18:00:00+00:00"
+  },
+  {
+    "airline": "Kunming Airlines",
+    "origin_airport": "XNN",
+    "destination_airport": "CTU",
+    "departure_hour": 18,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T18:00:00+00:00"
+  },
+  {
+    "airline": "Loong Air",
+    "origin_airport": "XNN",
+    "destination_airport": "CTU",
+    "departure_hour": 18,
+    "avg_delay_minutes": 56.0,
+    "fecha_completa_iso": "2026-06-19T18:00:00+00:00"
+  },
+  {
+    "airline": "Chengdu Airlines",
+    "origin_airport": "XNN",
+    "destination_airport": "CTU",
+    "departure_hour": 18,
+    "avg_delay_minutes": 28.0,
+    "fecha_completa_iso": "2026-06-19T18:00:00+00:00"
+  },
+  {
+    "airline": "Hainan Airlines",
+    "origin_airport": "XUZ",
+    "destination_airport": "SHE",
+    "departure_hour": 18,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T18:25:00+00:00"
+  },
+  {
+    "airline": "Tibet Airlines",
+    "origin_airport": "XUZ",
+    "destination_airport": "SHE",
+    "departure_hour": 18,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T18:25:00+00:00"
+  },
+  {
+    "airline": "China Southern Airlines",
+    "origin_airport": "XUZ",
+    "destination_airport": "SHE",
+    "departure_hour": 18,
+    "avg_delay_minutes": 88.0,
+    "fecha_completa_iso": "2026-06-19T18:25:00+00:00"
+  },
+  {
+    "airline": "Xiamen Air",
+    "origin_airport": "XMN",
+    "destination_airport": "KMG",
+    "departure_hour": 14,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T14:05:00+00:00"
+  },
+  {
+    "airline": "Sichuan Airlines",
+    "origin_airport": "XMN",
+    "destination_airport": "KMG",
+    "departure_hour": 14,
+    "avg_delay_minutes": 114.0,
+    "fecha_completa_iso": "2026-06-19T14:05:00+00:00"
+  },
+  {
+    "airline": "Juneyao Air",
+    "origin_airport": "XMN",
+    "destination_airport": "SHA",
+    "departure_hour": 14,
+    "avg_delay_minutes": 35.0,
+    "fecha_completa_iso": "2026-06-19T14:00:00+00:00"
+  },
+  {
+    "airline": "Xiamen Air",
+    "origin_airport": "XMN",
+    "destination_airport": "SHA",
+    "departure_hour": 14,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T14:00:00+00:00"
+  },
+  {
+    "airline": "Bangkok Airways",
+    "origin_airport": "XMN",
+    "destination_airport": "BKK",
+    "departure_hour": 14,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T14:00:00+00:00"
+  },
+  {
+    "airline": "Tibet Airlines",
+    "origin_airport": "XMN",
+    "destination_airport": "CTU",
+    "departure_hour": 13,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T13:50:00+00:00"
+  },
+  {
+    "airline": "China Eastern Airlines",
+    "origin_airport": "XMN",
+    "destination_airport": "CTU",
+    "departure_hour": 13,
+    "avg_delay_minutes": 75.0,
+    "fecha_completa_iso": "2026-06-19T13:50:00+00:00"
+  },
+  {
+    "airline": "Loong Air",
+    "origin_airport": "XMN",
+    "destination_airport": "CTU",
+    "departure_hour": 13,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T13:50:00+00:00"
+  },
+  {
+    "airline": "Sichuan Airlines",
+    "origin_airport": "XIY",
+    "destination_airport": "HRB",
+    "departure_hour": 13,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T13:45:00+00:00"
+  },
+  {
+    "airline": "China Southern Airlines",
+    "origin_airport": "XIY",
+    "destination_airport": "XMN",
+    "departure_hour": 13,
+    "avg_delay_minutes": 111.0,
+    "fecha_completa_iso": "2026-06-19T13:40:00+00:00"
+  },
+  {
+    "airline": "Hebei Airlines",
+    "origin_airport": "XIY",
+    "destination_airport": "XMN",
+    "departure_hour": 13,
+    "avg_delay_minutes": 61.0,
+    "fecha_completa_iso": "2026-06-19T13:40:00+00:00"
+  },
+  {
+    "airline": "Sterling Aviation",
+    "origin_airport": "FDK",
+    "destination_airport": "PHL",
+    "departure_hour": 7,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T07:15:00+00:00"
+  },
+  {
+    "airline": "Aero Ways",
+    "origin_airport": "ILG",
+    "destination_airport": "PHL",
+    "departure_hour": 7,
+    "avg_delay_minutes": 53.0,
+    "fecha_completa_iso": "2026-06-19T07:15:00+00:00"
+  },
+  {
+    "airline": "American Airlines",
+    "origin_airport": "ILG",
+    "destination_airport": "PHL",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:35:00+00:00"
+  },
+  {
+    "airline": "American Airlines",
+    "origin_airport": "ART",
+    "destination_airport": "PHL",
+    "departure_hour": 6,
+    "avg_delay_minutes": 69.0,
+    "fecha_completa_iso": "2026-06-19T06:00:00+00:00"
+  },
+  {
+    "airline": "Pelita Air",
+    "origin_airport": "PKU",
+    "destination_airport": "CGK",
+    "departure_hour": 18,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T18:20:00+00:00"
+  },
+  {
+    "airline": "Super Air Jet",
+    "origin_airport": "PKU",
+    "destination_airport": "CGK",
+    "departure_hour": 18,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T18:15:00+00:00"
+  },
+  {
+    "airline": "American Airlines",
+    "origin_airport": "PIT",
+    "destination_airport": "PHL",
+    "departure_hour": 8,
+    "avg_delay_minutes": 60.0,
+    "fecha_completa_iso": "2026-06-19T08:05:00+00:00"
+  },
+  {
+    "airline": "Aer Lingus",
+    "origin_airport": "PIT",
+    "destination_airport": "PHL",
+    "departure_hour": 8,
+    "avg_delay_minutes": 62.0,
+    "fecha_completa_iso": "2026-06-19T08:05:00+00:00"
+  },
+  {
+    "airline": "Southwest Airlines",
+    "origin_airport": "PIT",
+    "destination_airport": "MCO",
+    "departure_hour": 8,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T08:00:00+00:00"
+  },
+  {
+    "airline": "American Airlines",
+    "origin_airport": "PIT",
+    "destination_airport": "RDU",
+    "departure_hour": 8,
+    "avg_delay_minutes": 60.0,
+    "fecha_completa_iso": "2026-06-19T08:00:00+00:00"
+  },
+  {
+    "airline": "Allegiant Air",
+    "origin_airport": "PIT",
+    "destination_airport": "AUS",
+    "departure_hour": 8,
+    "avg_delay_minutes": 22.0,
+    "fecha_completa_iso": "2026-06-19T08:00:00+00:00"
+  },
+  {
+    "airline": "American Airlines",
+    "origin_airport": "PIT",
+    "destination_airport": "ORD",
+    "departure_hour": 8,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T08:00:00+00:00"
+  },
+  {
+    "airline": "Qantas",
+    "origin_airport": "PIT",
+    "destination_airport": "ORD",
+    "departure_hour": 8,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T08:00:00+00:00"
+  },
+  {
+    "airline": "Japan Airlines",
+    "origin_airport": "PIT",
+    "destination_airport": "ORD",
+    "departure_hour": 8,
+    "avg_delay_minutes": 112.0,
+    "fecha_completa_iso": "2026-06-19T08:00:00+00:00"
+  },
+  {
+    "airline": "American Airlines",
+    "origin_airport": "PIT",
+    "destination_airport": "PHX",
+    "departure_hour": 7,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T07:44:00+00:00"
+  },
+  {
+    "airline": "AlphaSky",
+    "origin_airport": "PIT",
+    "destination_airport": "PHX",
+    "departure_hour": 7,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T07:44:00+00:00"
+  },
+  {
+    "airline": "Alaska Airlines",
+    "origin_airport": "PIT",
+    "destination_airport": "SEA",
+    "departure_hour": 7,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T07:30:00+00:00"
+  },
+  {
+    "airline": "Finnair",
+    "origin_airport": "PIT",
+    "destination_airport": "SEA",
+    "departure_hour": 7,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T07:30:00+00:00"
+  },
+  {
+    "airline": "JetBlue",
+    "origin_airport": "PIT",
+    "destination_airport": "FLL",
+    "departure_hour": 7,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T07:25:00+00:00"
+  },
+  {
+    "airline": "United Airlines",
+    "origin_airport": "PIT",
+    "destination_airport": "EWR",
+    "departure_hour": 7,
+    "avg_delay_minutes": 116.0,
+    "fecha_completa_iso": "2026-06-19T07:23:00+00:00"
+  },
+  {
+    "airline": "Delta Air Lines",
+    "origin_airport": "PIT",
+    "destination_airport": "JFK",
+    "departure_hour": 7,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T07:22:00+00:00"
+  },
+  {
+    "airline": "Virgin Atlantic",
+    "origin_airport": "PIT",
+    "destination_airport": "JFK",
+    "departure_hour": 7,
+    "avg_delay_minutes": 88.0,
+    "fecha_completa_iso": "2026-06-19T07:22:00+00:00"
+  },
+  {
+    "airline": "SAS",
+    "origin_airport": "PIT",
+    "destination_airport": "JFK",
+    "departure_hour": 7,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T07:22:00+00:00"
+  },
+  {
+    "airline": "LATAM Airlines",
+    "origin_airport": "PIT",
+    "destination_airport": "JFK",
+    "departure_hour": 7,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T07:22:00+00:00"
+  },
+  {
+    "airline": "KLM",
+    "origin_airport": "PIT",
+    "destination_airport": "JFK",
+    "departure_hour": 7,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T07:22:00+00:00"
+  },
+  {
+    "airline": "Korean Air",
+    "origin_airport": "PIT",
+    "destination_airport": "JFK",
+    "departure_hour": 7,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T07:22:00+00:00"
+  },
+  {
+    "airline": "American Airlines",
+    "origin_airport": "PIT",
+    "destination_airport": "DFW",
+    "departure_hour": 7,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T07:16:00+00:00"
+  },
+  {
+    "airline": "Qatar Airways",
+    "origin_airport": "PIT",
+    "destination_airport": "DFW",
+    "departure_hour": 7,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T07:16:00+00:00"
+  },
+  {
+    "airline": "Japan Airlines",
+    "origin_airport": "PIT",
+    "destination_airport": "DFW",
+    "departure_hour": 7,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T07:16:00+00:00"
+  },
+  {
+    "airline": "AlphaSky",
+    "origin_airport": "PIT",
+    "destination_airport": "DFW",
+    "departure_hour": 7,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T07:16:00+00:00"
+  },
+  {
+    "airline": "Southwest Airlines",
+    "origin_airport": "PIT",
+    "destination_airport": "LAS",
+    "departure_hour": 7,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T07:15:00+00:00"
+  },
+  {
+    "airline": "Republic Airways",
+    "origin_airport": "PIT",
+    "destination_airport": "ROA",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:30:00+00:00"
+  },
+  {
+    "airline": "Sun Country Airlines",
+    "origin_airport": "PIT",
+    "destination_airport": "LAL",
+    "departure_hour": 3,
+    "avg_delay_minutes": 39.0,
+    "fecha_completa_iso": "2026-06-19T03:20:00+00:00"
+  },
+  {
+    "airline": "SkyWest Airlines",
+    "origin_airport": "PIR",
+    "destination_airport": "DEN",
+    "departure_hour": 6,
+    "avg_delay_minutes": 40.0,
+    "fecha_completa_iso": "2026-06-19T06:20:00+00:00"
+  },
+  {
+    "airline": "247 Aviation",
+    "origin_airport": "PIK",
+    "destination_airport": "BFS",
+    "departure_hour": 13,
+    "avg_delay_minutes": 103.0,
+    "fecha_completa_iso": "2026-06-19T13:00:00+00:00"
+  },
+  {
+    "airline": "SkyShare",
+    "origin_airport": "PIH",
+    "destination_airport": "SLC",
+    "departure_hour": 0,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T00:30:00+00:00"
+  },
+  {
+    "airline": "Allegiant Air",
+    "origin_airport": "PIE",
+    "destination_airport": "MCI",
+    "departure_hour": 8,
+    "avg_delay_minutes": 19.0,
+    "fecha_completa_iso": "2026-06-19T08:00:00+00:00"
+  },
+  {
+    "airline": "Allegiant Air",
+    "origin_airport": "PIE",
+    "destination_airport": "OMA",
+    "departure_hour": 7,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T07:40:00+00:00"
+  },
+  {
+    "airline": "Allegiant Air",
+    "origin_airport": "PIE",
+    "destination_airport": "COS",
+    "departure_hour": 7,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T07:30:00+00:00"
+  },
+  {
+    "airline": "Allegiant Air",
+    "origin_airport": "PIE",
+    "destination_airport": "BMI",
+    "departure_hour": 7,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T07:20:00+00:00"
+  },
+  {
+    "airline": "Allegiant Air",
+    "origin_airport": "PIE",
+    "destination_airport": "ALB",
+    "departure_hour": 7,
+    "avg_delay_minutes": 108.0,
+    "fecha_completa_iso": "2026-06-19T07:10:00+00:00"
+  },
+  {
+    "airline": "United Airlines",
+    "origin_airport": "PIA",
+    "destination_airport": "ORD",
+    "departure_hour": 6,
+    "avg_delay_minutes": 33.0,
+    "fecha_completa_iso": "2026-06-19T06:30:00+00:00"
+  },
+  {
+    "airline": "Air New Zealand",
+    "origin_airport": "PIA",
+    "destination_airport": "ORD",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:30:00+00:00"
+  },
+  {
+    "airline": "Copa Airlines",
+    "origin_airport": "PIA",
+    "destination_airport": "ORD",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:30:00+00:00"
+  },
+  {
+    "airline": "American Airlines",
+    "origin_airport": "PIA",
+    "destination_airport": "DFW",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:13:00+00:00"
+  },
+  {
+    "airline": "American Airlines",
+    "origin_airport": "PHX",
+    "destination_airport": "PHL",
+    "departure_hour": 5,
+    "avg_delay_minutes": 30.0,
+    "fecha_completa_iso": "2026-06-19T05:06:00+00:00"
+  },
+  {
+    "airline": "Aer Lingus",
+    "origin_airport": "PHX",
+    "destination_airport": "PHL",
+    "departure_hour": 5,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T05:06:00+00:00"
+  },
+  {
+    "airline": "Sundair",
+    "origin_airport": "MPM",
+    "destination_airport": "APL",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:10:00+00:00"
+  },
+  {
+    "airline": "Thai Airways",
+    "origin_airport": "AGP",
+    "destination_airport": "IST",
+    "departure_hour": 11,
+    "avg_delay_minutes": 34.0,
+    "fecha_completa_iso": "2026-06-19T11:50:00+00:00"
+  },
+  {
+    "airline": "Etihad Airways",
+    "origin_airport": "PVG",
+    "destination_airport": "ACX",
+    "departure_hour": 16,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T16:40:00+00:00"
+  },
+  {
+    "airline": "Juneyao Air",
+    "origin_airport": "PVG",
+    "destination_airport": "ACX",
+    "departure_hour": 16,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T16:40:00+00:00"
+  },
+  {
+    "airline": "Flexjet",
+    "origin_airport": "TEB",
+    "destination_airport": "ACK",
+    "departure_hour": 6,
+    "avg_delay_minutes": 38.0,
+    "fecha_completa_iso": "2026-06-19T06:57:00+00:00"
+  },
+  {
+    "airline": "Cape Air",
+    "origin_airport": "EWB",
+    "destination_airport": "ACK",
+    "departure_hour": 7,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T07:00:00+00:00"
+  },
+  {
+    "airline": "Qatar Airways",
+    "origin_airport": "BCN",
+    "destination_airport": "ACE",
+    "departure_hour": 10,
+    "avg_delay_minutes": 35.0,
+    "fecha_completa_iso": "2026-06-19T10:10:00+00:00"
+  },
+  {
+    "airline": "Miami Air International",
+    "origin_airport": "BCN",
+    "destination_airport": "ACE",
+    "departure_hour": 10,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T10:10:00+00:00"
+  },
+  {
+    "airline": "Iberia",
+    "origin_airport": "BCN",
+    "destination_airport": "ACE",
+    "departure_hour": 10,
+    "avg_delay_minutes": 101.0,
+    "fecha_completa_iso": "2026-06-19T10:10:00+00:00"
+  },
+  {
+    "airline": "PassionAir",
+    "origin_airport": "NYI",
+    "destination_airport": "ACC",
+    "departure_hour": 10,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T10:50:00+00:00"
+  },
+  {
+    "airline": "PassionAir",
+    "origin_airport": "NYI",
+    "destination_airport": "ACC",
+    "departure_hour": 10,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T10:50:00+00:00"
+  },
+  {
+    "airline": "IndiGo",
+    "origin_airport": "AMS",
+    "destination_airport": "ABZ",
+    "departure_hour": 11,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T11:50:00+00:00"
+  },
+  {
+    "airline": "Virgin Atlantic",
+    "origin_airport": "AMS",
+    "destination_airport": "ABZ",
+    "departure_hour": 11,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T11:50:00+00:00"
+  },
+  {
+    "airline": "Kenya Airways",
+    "origin_airport": "AMS",
+    "destination_airport": "ABZ",
+    "departure_hour": 11,
+    "avg_delay_minutes": 27.0,
+    "fecha_completa_iso": "2026-06-19T11:50:00+00:00"
+  },
+  {
+    "airline": "Delta Air Lines",
+    "origin_airport": "AMS",
+    "destination_airport": "ABZ",
+    "departure_hour": 11,
+    "avg_delay_minutes": 90.0,
+    "fecha_completa_iso": "2026-06-19T11:50:00+00:00"
+  },
+  {
+    "airline": "Overland Airways",
+    "origin_airport": "GMO",
+    "destination_airport": "ABV",
+    "departure_hour": 12,
+    "avg_delay_minutes": 17.0,
+    "fecha_completa_iso": "2026-06-19T12:10:00+00:00"
+  },
+  {
+    "airline": "China United Airlines",
+    "origin_airport": "ACX",
+    "destination_airport": "PKX",
+    "departure_hour": 19,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T19:45:00+00:00"
+  },
+  {
+    "airline": "China Eastern Airlines",
+    "origin_airport": "ACX",
+    "destination_airport": "PKX",
+    "departure_hour": 19,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T19:45:00+00:00"
+  },
+  {
+    "airline": "Flexjet",
+    "origin_airport": "ACK",
+    "destination_airport": "TEB",
+    "departure_hour": 8,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T08:07:00+00:00"
+  },
+  {
+    "airline": "Cape Air",
+    "origin_airport": "ACK",
+    "destination_airport": "MVY",
+    "departure_hour": 8,
+    "avg_delay_minutes": 72.0,
+    "fecha_completa_iso": "2026-06-19T08:05:00+00:00"
+  },
+  {
+    "airline": "JetBlue",
+    "origin_airport": "ACK",
+    "destination_airport": "MVY",
+    "departure_hour": 8,
+    "avg_delay_minutes": 69.0,
+    "fecha_completa_iso": "2026-06-19T08:05:00+00:00"
+  },
+  {
+    "airline": "Flexjet",
+    "origin_airport": "ACK",
+    "destination_airport": "TEB",
+    "departure_hour": 8,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T08:03:00+00:00"
+  },
+  {
+    "airline": "Cape Air",
+    "origin_airport": "ACK",
+    "destination_airport": "MVY",
+    "departure_hour": 7,
+    "avg_delay_minutes": 99.0,
+    "fecha_completa_iso": "2026-06-19T07:55:00+00:00"
+  },
+  {
+    "airline": "Vueling",
+    "origin_airport": "ACE",
+    "destination_airport": "BCN",
+    "departure_hour": 13,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T13:05:00+00:00"
+  },
+  {
+    "airline": "Qatar Airways",
+    "origin_airport": "ACE",
+    "destination_airport": "BCN",
+    "departure_hour": 13,
+    "avg_delay_minutes": 120.0,
+    "fecha_completa_iso": "2026-06-19T13:05:00+00:00"
+  },
+  {
+    "airline": "Miami Air International",
+    "origin_airport": "ACE",
+    "destination_airport": "BCN",
+    "departure_hour": 13,
+    "avg_delay_minutes": 45.0,
+    "fecha_completa_iso": "2026-06-19T13:05:00+00:00"
+  },
+  {
+    "airline": "Iberia",
+    "origin_airport": "ACE",
+    "destination_airport": "BCN",
+    "departure_hour": 13,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T13:05:00+00:00"
+  },
+  {
+    "airline": "Ryanair",
+    "origin_airport": "ACE",
+    "destination_airport": "STN",
+    "departure_hour": 13,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T13:05:00+00:00"
+  },
+  {
+    "airline": "Aer Lingus",
+    "origin_airport": "ACE",
+    "destination_airport": "DUB",
+    "departure_hour": 12,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T12:45:00+00:00"
+  },
+  {
+    "airline": "Binter Canarias",
+    "origin_airport": "ACE",
+    "destination_airport": "TFN",
+    "departure_hour": 12,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T12:35:00+00:00"
+  },
+  {
+    "airline": "Binter Canarias",
+    "origin_airport": "ACE",
+    "destination_airport": "LPA",
+    "departure_hour": 12,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T12:30:00+00:00"
+  },
+  {
+    "airline": "Jettime",
+    "origin_airport": "ACE",
+    "destination_airport": "BLL",
+    "departure_hour": 12,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T12:25:00+00:00"
+  },
+  {
+    "airline": "easyJet",
+    "origin_airport": "ACE",
+    "destination_airport": "BFS",
+    "departure_hour": 12,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T12:20:00+00:00"
+  },
+  {
+    "airline": "Ryanair",
+    "origin_airport": "ACE",
+    "destination_airport": "AGP",
+    "departure_hour": 12,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T12:10:00+00:00"
+  },
+  {
+    "airline": "Africa World Airlines",
+    "origin_airport": "ACC",
+    "destination_airport": "KMS",
+    "departure_hour": 11,
+    "avg_delay_minutes": 105.0,
+    "fecha_completa_iso": "2026-06-19T11:40:00+00:00"
+  },
+  {
+    "airline": "euroairlines",
+    "origin_airport": "ACC",
+    "destination_airport": "KMS",
+    "departure_hour": 11,
+    "avg_delay_minutes": 22.0,
+    "fecha_completa_iso": "2026-06-19T11:40:00+00:00"
+  },
+  {
+    "airline": "Qatar Airways",
+    "origin_airport": "ACC",
+    "destination_airport": "DOH",
+    "departure_hour": 11,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T11:25:00+00:00"
+  },
+  {
+    "airline": "Virgin Australia",
+    "origin_airport": "ACC",
+    "destination_airport": "DOH",
+    "departure_hour": 11,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T11:25:00+00:00"
+  },
+  {
+    "airline": "RwandAir",
+    "origin_airport": "ACC",
+    "destination_airport": "DOH",
+    "departure_hour": 11,
+    "avg_delay_minutes": 22.0,
+    "fecha_completa_iso": "2026-06-19T11:25:00+00:00"
+  },
+  {
+    "airline": "Oman Air",
+    "origin_airport": "ACC",
+    "destination_airport": "DOH",
+    "departure_hour": 11,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T11:25:00+00:00"
+  },
+  {
+    "airline": "Xiamen Air",
+    "origin_airport": "ACC",
+    "destination_airport": "DOH",
+    "departure_hour": 11,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T11:25:00+00:00"
+  },
+  {
+    "airline": "KLM",
+    "origin_airport": "ABZ",
+    "destination_airport": "AMS",
+    "departure_hour": 12,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T12:55:00+00:00"
+  },
+  {
+    "airline": "IndiGo",
+    "origin_airport": "ABZ",
+    "destination_airport": "AMS",
+    "departure_hour": 12,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T12:55:00+00:00"
+  },
+  {
+    "airline": "Virgin Atlantic",
+    "origin_airport": "ABZ",
+    "destination_airport": "AMS",
+    "departure_hour": 12,
+    "avg_delay_minutes": 84.0,
+    "fecha_completa_iso": "2026-06-19T12:55:00+00:00"
+  },
+  {
+    "airline": "China Eastern Airlines",
+    "origin_airport": "ABZ",
+    "destination_airport": "AMS",
+    "departure_hour": 12,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T12:55:00+00:00"
+  },
+  {
+    "airline": "Xiamen Air",
+    "origin_airport": "SJW",
+    "destination_airport": "LHW",
+    "departure_hour": 20,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T20:00:00+00:00"
+  },
+  {
+    "airline": "Jiangxi Air",
+    "origin_airport": "SJW",
+    "destination_airport": "HGH",
+    "departure_hour": 19,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T19:20:00+00:00"
+  },
+  {
+    "airline": "Xiamen Air",
+    "origin_airport": "SJW",
+    "destination_airport": "HGH",
+    "departure_hour": 19,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T19:20:00+00:00"
+  },
+  {
+    "airline": "China Southern Airlines",
+    "origin_airport": "SJW",
+    "destination_airport": "HGH",
+    "departure_hour": 19,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T19:20:00+00:00"
+  },
+  {
+    "airline": "Shandong Airlines",
+    "origin_airport": "SJW",
+    "destination_airport": "ZQZ",
+    "departure_hour": 19,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T19:15:00+00:00"
+  },
+  {
+    "airline": "Xiamen Air",
+    "origin_airport": "SJW",
+    "destination_airport": "ZQZ",
+    "departure_hour": 19,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T19:15:00+00:00"
+  },
+  {
+    "airline": "Lufthansa",
+    "origin_airport": "MUC",
+    "destination_airport": "RJK",
+    "departure_hour": 10,
+    "avg_delay_minutes": 16.0,
+    "fecha_completa_iso": "2026-06-19T10:15:00+00:00"
+  },
+  {
+    "airline": "Labcorp",
+    "origin_airport": "QQY",
+    "destination_airport": "RIC",
+    "departure_hour": 1,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T01:45:00+00:00"
+  },
+  {
+    "airline": "NetJets",
+    "origin_airport": "RAK",
+    "destination_airport": "BCN",
+    "departure_hour": 10,
+    "avg_delay_minutes": 57.0,
+    "fecha_completa_iso": "2026-06-19T10:46:00+00:00"
+  },
+  {
+    "airline": "SAS",
+    "origin_airport": "PVK",
+    "destination_airport": "HAU",
+    "departure_hour": 11,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T11:50:00+00:00"
+  },
+  {
+    "airline": "Air China",
+    "origin_airport": "PVG",
+    "destination_airport": "AKL",
+    "departure_hour": 14,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T14:15:00+00:00"
+  },
+  {
+    "airline": "China Eastern Airlines",
+    "origin_airport": "PVG",
+    "destination_airport": "XMN",
+    "departure_hour": 13,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T13:55:00+00:00"
+  },
+  {
+    "airline": "Air France",
+    "origin_airport": "PVG",
+    "destination_airport": "KMG",
+    "departure_hour": 13,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T13:55:00+00:00"
+  },
+  {
+    "airline": "Etihad Airways",
+    "origin_airport": "PVG",
+    "destination_airport": "KMG",
+    "departure_hour": 13,
+    "avg_delay_minutes": 57.0,
+    "fecha_completa_iso": "2026-06-19T13:55:00+00:00"
+  },
+  {
+    "airline": "KLM",
+    "origin_airport": "PVG",
+    "destination_airport": "KMG",
+    "departure_hour": 13,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T13:55:00+00:00"
+  },
+  {
+    "airline": "Juneyao Air",
+    "origin_airport": "PVG",
+    "destination_airport": "KMG",
+    "departure_hour": 13,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T13:55:00+00:00"
+  },
+  {
+    "airline": "Xiamen Air",
+    "origin_airport": "PVG",
+    "destination_airport": "KMG",
+    "departure_hour": 13,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T13:55:00+00:00"
+  },
+  {
+    "airline": "China Eastern Airlines",
+    "origin_airport": "PVG",
+    "destination_airport": "SHE",
+    "departure_hour": 13,
+    "avg_delay_minutes": 25.0,
+    "fecha_completa_iso": "2026-06-19T13:50:00+00:00"
+  },
+  {
+    "airline": "Etihad Airways",
+    "origin_airport": "PVG",
+    "destination_airport": "TAO",
+    "departure_hour": 13,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T13:50:00+00:00"
+  },
+  {
+    "airline": "Air France",
+    "origin_airport": "PVG",
+    "destination_airport": "TAO",
+    "departure_hour": 13,
+    "avg_delay_minutes": 26.0,
+    "fecha_completa_iso": "2026-06-19T13:50:00+00:00"
+  },
+  {
+    "airline": "KLM",
+    "origin_airport": "PVG",
+    "destination_airport": "TAO",
+    "departure_hour": 13,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T13:50:00+00:00"
+  },
+  {
+    "airline": "Xiamen Air",
+    "origin_airport": "PVG",
+    "destination_airport": "TAO",
+    "departure_hour": 13,
+    "avg_delay_minutes": 112.0,
+    "fecha_completa_iso": "2026-06-19T13:50:00+00:00"
+  },
+  {
+    "airline": "IndiGo",
+    "origin_airport": "AMS",
+    "destination_airport": "PRG",
+    "departure_hour": 12,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T12:20:00+00:00"
+  },
+  {
+    "airline": "WestJet",
+    "origin_airport": "AMS",
+    "destination_airport": "PRG",
+    "departure_hour": 12,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T12:20:00+00:00"
+  },
+  {
+    "airline": "Delta Air Lines",
+    "origin_airport": "AMS",
+    "destination_airport": "PRG",
+    "departure_hour": 12,
+    "avg_delay_minutes": 116.0,
+    "fecha_completa_iso": "2026-06-19T12:20:00+00:00"
+  },
+  {
+    "airline": "China Airlines",
+    "origin_airport": "AMS",
+    "destination_airport": "PRG",
+    "departure_hour": 12,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T12:20:00+00:00"
+  },
+  {
+    "airline": "United Airlines",
+    "origin_airport": "FRA",
+    "destination_airport": "PRG",
+    "departure_hour": 12,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T12:40:00+00:00"
+  },
+  {
+    "airline": "Luxair",
+    "origin_airport": "FRA",
+    "destination_airport": "PRG",
+    "departure_hour": 12,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T12:40:00+00:00"
+  },
+  {
+    "airline": "Alitalia",
+    "origin_airport": "FRA",
+    "destination_airport": "PRG",
+    "departure_hour": 12,
+    "avg_delay_minutes": 39.0,
+    "fecha_completa_iso": "2026-06-19T12:40:00+00:00"
+  },
+  {
+    "airline": "Air India",
+    "origin_airport": "FRA",
+    "destination_airport": "PRG",
+    "departure_hour": 12,
+    "avg_delay_minutes": 99.0,
+    "fecha_completa_iso": "2026-06-19T12:40:00+00:00"
+  },
+  {
+    "airline": "Air Canada",
+    "origin_airport": "FRA",
+    "destination_airport": "PRG",
+    "departure_hour": 12,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T12:40:00+00:00"
+  },
+  {
+    "airline": "American Airlines",
+    "origin_airport": "PRG",
+    "destination_airport": "DUB",
+    "departure_hour": 11,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T11:50:00+00:00"
+  },
+  {
+    "airline": "Eurowings",
+    "origin_airport": "PRG",
+    "destination_airport": "TFS",
+    "departure_hour": 11,
+    "avg_delay_minutes": 40.0,
+    "fecha_completa_iso": "2026-06-19T11:50:00+00:00"
+  },
+  {
+    "airline": "United Airlines",
+    "origin_airport": "PRG",
+    "destination_airport": "FRA",
+    "departure_hour": 11,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T11:45:00+00:00"
+  },
+  {
+    "airline": "Fleet Air International",
+    "origin_airport": "BCN",
+    "destination_airport": "PMI",
+    "departure_hour": 8,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T08:10:00+00:00"
+  },
+  {
+    "airline": "NetJets",
+    "origin_airport": "PMI",
+    "destination_airport": "RMU",
+    "departure_hour": 9,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T09:55:00+00:00"
+  },
+  {
+    "airline": "Aeropyrenees",
+    "origin_airport": "BZR",
+    "destination_airport": "PGF",
+    "departure_hour": 13,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T13:15:00+00:00"
+  },
+  {
+    "airline": "South African Airways",
+    "origin_airport": "MEL",
+    "destination_airport": "PER",
+    "departure_hour": 15,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T15:50:00+00:00"
+  },
+  {
+    "airline": "Etihad Airways",
+    "origin_airport": "MEL",
+    "destination_airport": "PER",
+    "departure_hour": 15,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T15:50:00+00:00"
+  },
+  {
+    "airline": "Air China",
+    "origin_airport": "MEL",
+    "destination_airport": "PER",
+    "departure_hour": 15,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T15:50:00+00:00"
+  },
+  {
+    "airline": "Aeropyrenees",
+    "origin_airport": "PGF",
+    "destination_airport": "BZR",
+    "departure_hour": 12,
+    "avg_delay_minutes": 114.0,
+    "fecha_completa_iso": "2026-06-19T12:45:00+00:00"
+  },
+  {
+    "airline": "Lufthansa",
+    "origin_airport": "PER",
+    "destination_airport": "SIN",
+    "departure_hour": 16,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T16:55:00+00:00"
+  },
+  {
+    "airline": "Ethiopian Airlines",
+    "origin_airport": "PER",
+    "destination_airport": "SIN",
+    "departure_hour": 16,
+    "avg_delay_minutes": 16.0,
+    "fecha_completa_iso": "2026-06-19T16:55:00+00:00"
+  },
+  {
+    "airline": "Air India",
+    "origin_airport": "PER",
+    "destination_airport": "SIN",
+    "departure_hour": 16,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T16:55:00+00:00"
+  },
+  {
+    "airline": "Air Canada",
+    "origin_airport": "PER",
+    "destination_airport": "SIN",
+    "departure_hour": 16,
+    "avg_delay_minutes": 52.0,
+    "fecha_completa_iso": "2026-06-19T16:55:00+00:00"
+  },
+  {
+    "airline": "AlphaSky",
+    "origin_airport": "PER",
+    "destination_airport": "MEL",
+    "departure_hour": 16,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T16:55:00+00:00"
+  },
+  {
+    "airline": "Air New Zealand",
+    "origin_airport": "PER",
+    "destination_airport": "MEL",
+    "departure_hour": 16,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T16:55:00+00:00"
+  },
+  {
+    "airline": "United States - Coast Guard",
+    "origin_airport": "OTP",
+    "destination_airport": "BCM",
+    "departure_hour": 9,
+    "avg_delay_minutes": 60.0,
+    "fecha_completa_iso": "2026-06-19T09:00:00+00:00"
+  },
+  {
+    "airline": "Transavia",
+    "origin_airport": "ORY",
+    "destination_airport": "VIE",
+    "departure_hour": 10,
+    "avg_delay_minutes": 80.0,
+    "fecha_completa_iso": "2026-06-19T10:45:00+00:00"
+  },
+  {
+    "airline": "Transavia",
+    "origin_airport": "ORY",
+    "destination_airport": "IST",
+    "departure_hour": 10,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T10:30:00+00:00"
+  },
+  {
+    "airline": "Azores Airlines",
+    "origin_airport": "ORY",
+    "destination_airport": "LIS",
+    "departure_hour": 10,
+    "avg_delay_minutes": 63.0,
+    "fecha_completa_iso": "2026-06-19T10:20:00+00:00"
+  },
+  {
+    "airline": "LATAM Airlines",
+    "origin_airport": "ORY",
+    "destination_airport": "LIS",
+    "departure_hour": 10,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T10:20:00+00:00"
+  },
+  {
+    "airline": "Azul",
+    "origin_airport": "ORY",
+    "destination_airport": "LIS",
+    "departure_hour": 10,
+    "avg_delay_minutes": 43.0,
+    "fecha_completa_iso": "2026-06-19T10:20:00+00:00"
+  },
+  {
+    "airline": "Air New Zealand",
+    "origin_airport": "ORD",
+    "destination_airport": "ROC",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:45:00+00:00"
+  },
+  {
+    "airline": "Air Canada",
+    "origin_airport": "ORD",
+    "destination_airport": "ROC",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:45:00+00:00"
+  },
+  {
+    "airline": "Air New Zealand",
+    "origin_airport": "ORD",
+    "destination_airport": "ORF",
+    "departure_hour": 6,
+    "avg_delay_minutes": 37.0,
+    "fecha_completa_iso": "2026-06-19T06:45:00+00:00"
+  },
+  {
+    "airline": "Air Canada",
+    "origin_airport": "ORD",
+    "destination_airport": "ORF",
+    "departure_hour": 6,
+    "avg_delay_minutes": 104.0,
+    "fecha_completa_iso": "2026-06-19T06:45:00+00:00"
+  },
+  {
+    "airline": "Air New Zealand",
+    "origin_airport": "ORD",
+    "destination_airport": "ROA",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:45:00+00:00"
+  },
+  {
+    "airline": "Air New Zealand",
+    "origin_airport": "ORD",
+    "destination_airport": "CLT",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:45:00+00:00"
+  },
+  {
+    "airline": "Air Canada",
+    "origin_airport": "ORD",
+    "destination_airport": "CLT",
+    "departure_hour": 6,
+    "avg_delay_minutes": 88.0,
+    "fecha_completa_iso": "2026-06-19T06:45:00+00:00"
+  },
+  {
+    "airline": "Aer Lingus",
+    "origin_airport": "ORD",
+    "destination_airport": "BNA",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:45:00+00:00"
+  },
+  {
+    "airline": "AlphaSky",
+    "origin_airport": "ORD",
+    "destination_airport": "BNA",
+    "departure_hour": 6,
+    "avg_delay_minutes": 33.0,
+    "fecha_completa_iso": "2026-06-19T06:45:00+00:00"
+  },
+  {
+    "airline": "Japan Airlines",
+    "origin_airport": "ORD",
+    "destination_airport": "SAN",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:45:00+00:00"
+  },
+  {
+    "airline": "Aer Lingus",
+    "origin_airport": "ORD",
+    "destination_airport": "SAN",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:45:00+00:00"
+  },
+  {
+    "airline": "British Airways",
+    "origin_airport": "ORD",
+    "destination_airport": "SAN",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:45:00+00:00"
+  },
+  {
+    "airline": "Aer Lingus",
+    "origin_airport": "ORD",
+    "destination_airport": "CLE",
+    "departure_hour": 6,
+    "avg_delay_minutes": 92.0,
+    "fecha_completa_iso": "2026-06-19T06:41:00+00:00"
+  },
+  {
+    "airline": "British Airways",
+    "origin_airport": "ORD",
+    "destination_airport": "CLE",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:41:00+00:00"
+  },
+  {
+    "airline": "AlphaSky",
+    "origin_airport": "ORD",
+    "destination_airport": "CLE",
+    "departure_hour": 6,
+    "avg_delay_minutes": 32.0,
+    "fecha_completa_iso": "2026-06-19T06:41:00+00:00"
+  },
+  {
+    "airline": "AlphaSky",
+    "origin_airport": "ORD",
+    "destination_airport": "BUF",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:40:00+00:00"
+  },
+  {
+    "airline": "Aer Lingus",
+    "origin_airport": "ORD",
+    "destination_airport": "MKE",
+    "departure_hour": 6,
+    "avg_delay_minutes": 26.0,
+    "fecha_completa_iso": "2026-06-19T06:40:00+00:00"
+  },
+  {
+    "airline": "AlphaSky",
+    "origin_airport": "ORD",
+    "destination_airport": "MKE",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:40:00+00:00"
+  },
+  {
+    "airline": "British Airways",
+    "origin_airport": "ORD",
+    "destination_airport": "MSN",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:40:00+00:00"
+  },
+  {
+    "airline": "AlphaSky",
+    "origin_airport": "ORD",
+    "destination_airport": "MSN",
+    "departure_hour": 6,
+    "avg_delay_minutes": 111.0,
+    "fecha_completa_iso": "2026-06-19T06:40:00+00:00"
+  },
+  {
+    "airline": "Iberia",
+    "origin_airport": "ORD",
+    "destination_airport": "DEN",
+    "departure_hour": 6,
+    "avg_delay_minutes": 44.0,
+    "fecha_completa_iso": "2026-06-19T06:39:00+00:00"
+  },
+  {
+    "airline": "Aer Lingus",
+    "origin_airport": "ORD",
+    "destination_airport": "DEN",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:39:00+00:00"
+  },
+  {
+    "airline": "Korean Air",
+    "origin_airport": "ORD",
+    "destination_airport": "ATL",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:35:00+00:00"
+  },
+  {
+    "airline": "Aeromexico",
+    "origin_airport": "ORD",
+    "destination_airport": "ATL",
+    "departure_hour": 6,
+    "avg_delay_minutes": 16.0,
+    "fecha_completa_iso": "2026-06-19T06:35:00+00:00"
+  },
+  {
+    "airline": "WestJet",
+    "origin_airport": "ORD",
+    "destination_airport": "MSP",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:30:00+00:00"
+  },
+  {
+    "airline": "Virgin Atlantic",
+    "origin_airport": "ORD",
+    "destination_airport": "MSP",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:30:00+00:00"
+  },
+  {
+    "airline": "Aeromexico",
+    "origin_airport": "ORD",
+    "destination_airport": "MSP",
+    "departure_hour": 6,
+    "avg_delay_minutes": 90.0,
+    "fecha_completa_iso": "2026-06-19T06:30:00+00:00"
+  },
+  {
+    "airline": "Air New Zealand",
+    "origin_airport": "ORD",
+    "destination_airport": "IAH",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:30:00+00:00"
+  },
+  {
+    "airline": "Emirates",
+    "origin_airport": "ORD",
+    "destination_airport": "IAH",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:30:00+00:00"
+  },
+  {
+    "airline": "Ethiopian Airlines",
+    "origin_airport": "ORD",
+    "destination_airport": "IAD",
+    "departure_hour": 6,
+    "avg_delay_minutes": 38.0,
+    "fecha_completa_iso": "2026-06-19T06:30:00+00:00"
+  },
+  {
+    "airline": "Air Canada",
+    "origin_airport": "ORD",
+    "destination_airport": "IAD",
+    "departure_hour": 6,
+    "avg_delay_minutes": 105.0,
+    "fecha_completa_iso": "2026-06-19T06:30:00+00:00"
+  },
+  {
+    "airline": "Qantas",
+    "origin_airport": "ORD",
+    "destination_airport": "SFO",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:29:00+00:00"
+  },
+  {
+    "airline": "Aer Lingus",
+    "origin_airport": "ORD",
+    "destination_airport": "SFO",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:29:00+00:00"
+  },
+  {
+    "airline": "Frontier",
+    "origin_airport": "ORD",
+    "destination_airport": "MLM",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:24:00+00:00"
+  },
+  {
+    "airline": "Air New Zealand",
+    "origin_airport": "ORD",
+    "destination_airport": "BWI",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:20:00+00:00"
+  },
+  {
+    "airline": "Qatar Airways",
+    "origin_airport": "ORD",
+    "destination_airport": "SAN",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:20:00+00:00"
+  },
+  {
+    "airline": "Virgin Australia",
+    "origin_airport": "ORD",
+    "destination_airport": "SFO",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:13:00+00:00"
+  },
+  {
+    "airline": "Air New Zealand",
+    "origin_airport": "ORD",
+    "destination_airport": "SFO",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:13:00+00:00"
+  },
+  {
+    "airline": "Air Canada",
+    "origin_airport": "ORD",
+    "destination_airport": "SFO",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:13:00+00:00"
+  },
+  {
+    "airline": "Aer Lingus",
+    "origin_airport": "ORD",
+    "destination_airport": "MIA",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:10:00+00:00"
+  },
+  {
+    "airline": "AlphaSky",
+    "origin_airport": "ORD",
+    "destination_airport": "MIA",
+    "departure_hour": 6,
+    "avg_delay_minutes": 109.0,
+    "fecha_completa_iso": "2026-06-19T06:10:00+00:00"
+  },
+  {
+    "airline": "Air New Zealand",
+    "origin_airport": "ORD",
+    "destination_airport": "BOS",
+    "departure_hour": 6,
+    "avg_delay_minutes": 0.0,
+    "fecha_completa_iso": "2026-06-19T06:05:00+00:00"
   }
 ]
